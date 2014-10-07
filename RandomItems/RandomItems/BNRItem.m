@@ -51,11 +51,11 @@
 - (NSString *)description
 {
     NSString *descriptionString =
-    [[NSString alloc] initWithFormat:@"%@ (%@): Worth $%d, recorded on %@",
+    [[[NSString alloc] initWithFormat:@"%@ (%@): Worth $%d, recorded on %@",
      self.itemName,
      self.serialNumber,
      self.valueInDollars,
-     self.dateCreated];
+     self.dateCreated] autorelease];
     return descriptionString;
 }
 + (instancetype)randomItem
@@ -87,9 +87,9 @@
                                     'A' + arc4random() % 26,
                                     '0' + arc4random() % 10];
     
-    BNRItem *newItem = [[self alloc] initWithItemName:randomName
+    BNRItem *newItem = [[[self alloc] initWithItemName:randomName
                                        valueInDollars:randomValue
-                                         serialNumber:randomSerialNumber];
+                                         serialNumber:randomSerialNumber]autorelease];
                         
     return newItem;
 }
@@ -97,6 +97,7 @@
 - (void)dealloc
 {
     NSLog(@"Destroyed: %@", self);
+    [super dealloc];
 }
 
 @end
