@@ -1,0 +1,15 @@
+
+/* Class = "IBUILabel"; text = "Value"; ObjectID = "IFB-fh-sse"; */
+"IFB-fh-sse.text" = "Valor";
+
+/* Class = "IBUILabel"; text = "Serial"; ObjectID = "OvS-Uf-rvy"; */
+"OvS-Uf-rvy.text" = "Numéro de serie";
+
+/* Class = "IBUILabel"; text = "Name"; ObjectID = "V1Y-aR-ANp"; */
+"V1Y-aR-ANp.text" = "Nombre";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "cFY-1s-XNM"; */
+"cFY-1s-XNM.text" = "Label";
+
+/* Class = "IBUIBarButtonItem"; title = "Item"; ObjectID = "opI-E9-TDM"; */
+"opI-E9-TDM.title" = "Item";
