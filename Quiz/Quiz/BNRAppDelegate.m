@@ -13,10 +13,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]]autorelease];
     // Override point for customization after application launch.
     
-    BNRQuizViewController *quizVC = [[BNRQuizViewController alloc] init];
+    BNRQuizViewController *quizVC = [[[BNRQuizViewController alloc] init]autorelease];
     self.window.rootViewController = quizVC;
     
     self.window.backgroundColor = [UIColor whiteColor];

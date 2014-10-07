@@ -15,8 +15,8 @@
 @property (nonatomic, copy) NSArray *questions;
 @property (nonatomic, copy) NSArray *answers;
 
-@property (nonatomic, weak) IBOutlet UILabel *questionLabel;
-@property (nonatomic, weak) IBOutlet UILabel *answerLabel;
+@property (nonatomic, retain) IBOutlet UILabel *questionLabel;
+@property (nonatomic, retain) IBOutlet UILabel *answerLabel;
 
 @end
 
