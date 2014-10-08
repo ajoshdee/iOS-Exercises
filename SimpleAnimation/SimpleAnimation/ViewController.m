@@ -18,7 +18,10 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        // Custom initialization
+        NSString *path = [[NSBundle mainBundle]
+                          pathForResource:@"audio" ofType:@"mp3"];
+        audioPlayer = [[AVAudioPlayer alloc]initWithContentsOfURL:
+                       [NSURL fileURLWithPath:path] error:NULL];
     }
     return self;
 }
@@ -53,6 +56,10 @@
     [slowAnimationImageView startAnimating];
     [slowAnimationImageView release];
     [images release];
+    
+    [audioPlayer play];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -61,6 +68,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)dealloc
+{
+    [audioPlayer release];
+    [super dealloc];
+}
 /*
 #pragma mark - Navigation
 
