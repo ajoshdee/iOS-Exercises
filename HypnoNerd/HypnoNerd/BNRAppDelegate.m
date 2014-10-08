@@ -14,14 +14,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]]autorelease];
     // Override point for customization after application launch.
     
-    BNRHypnosisViewController *hvc = [[BNRHypnosisViewController alloc] init];
+    BNRHypnosisViewController *hvc = [[[BNRHypnosisViewController alloc] init]autorelease];
     
-   BNRReminderViewController *rvc = [[BNRReminderViewController alloc] init];
+   BNRReminderViewController *rvc = [[[BNRReminderViewController alloc] init]autorelease];
     
-    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    UITabBarController *tabBarController = [[[UITabBarController alloc] init]autorelease];
     tabBarController.viewControllers = @[hvc, rvc];
     
     
