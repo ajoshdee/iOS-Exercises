@@ -9,7 +9,7 @@
 #import "BNRHypnosisViewController.h"
 #import "BNRHypnosisView.h"
 @interface BNRHypnosisViewController () <UITextFieldDelegate>
-@property (nonatomic, weak) UITextField *textField;
+@property (nonatomic, assign) UITextField *textField;
 @end
 
 @implementation BNRHypnosisViewController
@@ -35,6 +35,8 @@
     
     // Set it as *the* view of this view controller
     self.view = backgroundView;
+    
+    [backgroundView release];
 }
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField
@@ -50,6 +52,7 @@
 
 - (void)viewDidLoad
 {
+    
     // Always call the super implementation of viewDidLoad
     [super viewDidLoad];
     NSLog(@"BNRHypnosisViewController loaded its view.");
@@ -99,6 +102,7 @@
         messageLabel.backgroundColor = [UIColor clearColor];
         messageLabel.textColor = [UIColor blueColor];
         messageLabel.text = message;
+        messageLabel.font = [UIFont fontWithName:@"SinkinSans-100ThinItalic" size:20];
         
         // This method resizes the label, which will be relative
         // to the text that it is displaying
@@ -161,4 +165,5 @@
         [messageLabel addMotionEffect:motionEffect];
     }
 }
+
 @end

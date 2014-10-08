@@ -77,6 +77,8 @@
     // Draw the line!
     [path stroke];
     
+    [path release];
+    
 }
 
 - (void)setCircleColor:(UIColor *)circleColor

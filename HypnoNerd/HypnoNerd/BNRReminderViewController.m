@@ -10,7 +10,7 @@
 
 @interface BNRReminderViewController ()
 
-@property (nonatomic, weak) IBOutlet UIDatePicker *datePicker;
+@property (nonatomic, retain) IBOutlet UIDatePicker *datePicker;
 
 @end
 
@@ -26,6 +26,8 @@
     note.fireDate = date;
     
     [[UIApplication sharedApplication] scheduleLocalNotification:note];
+    
+    [note release];
 }
 
 - (void)viewDidLoad

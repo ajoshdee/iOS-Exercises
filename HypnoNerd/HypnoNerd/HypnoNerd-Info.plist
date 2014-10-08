@@ -34,5 +34,11 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Exo-Bold.otf</string>
+		<string>Exo-Thin.otf</string>
+		<string>SinkinSans-100ThinItalic.otf</string>
+	</array>
 </dict>
 </plist>
