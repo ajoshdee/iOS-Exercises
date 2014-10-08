@@ -42,6 +42,7 @@
     
     [self.view addSubview:animationImageView];
     [animationImageView startAnimating];
+    [animationImageView release];
     
     // Slow motion animation
     UIImageView *slowAnimationImageView = [[UIImageView alloc] initWithFrame:CGRectMake(160, 95, 70, 150)];
@@ -50,6 +51,8 @@
     
     [self.view addSubview:slowAnimationImageView];
     [slowAnimationImageView startAnimating];
+    [slowAnimationImageView release];
+    [images release];
 }
 
 - (void)didReceiveMemoryWarning
