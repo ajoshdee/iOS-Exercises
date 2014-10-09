@@ -19,7 +19,7 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         NSString *path = [[NSBundle mainBundle]
-                          pathForResource:@"audio" ofType:@"mp3"];
+                          pathForResource:@"audio" ofType:@"aifc"];
         audioPlayer = [[AVAudioPlayer alloc]initWithContentsOfURL:
                        [NSURL fileURLWithPath:path] error:NULL];
     }
