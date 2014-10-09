@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface LevelViewController : UITableViewController
-
+@property (nonatomic,strong) NSArray *letter;
 @end

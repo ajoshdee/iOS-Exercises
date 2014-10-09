@@ -17,7 +17,7 @@
    
     MainViewController *mainViewController = [[MainViewController alloc] init];
     
-    mainViewController.attribute = @[@"Letter",@"Color",@"Number"];
+  
     UINavigationController *navController = [[UINavigationController alloc]
                                              initWithRootViewController: mainViewController];
      self.window.rootViewController = navController;

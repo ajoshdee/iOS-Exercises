@@ -18,6 +18,10 @@
 {
     // Call the superclass's designated initializer
     self = [super initWithStyle:UITableViewStylePlain];
+    if (self) {
+        self.attribute = @[@"Letter",@"Color",@"Number"];
+    }
+
     return self;
 }
 
