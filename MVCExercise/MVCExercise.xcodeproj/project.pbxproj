@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A4B002519E62D8E004CD072 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4B002419E62D8E004CD072 /* MainViewController.m */; };
 		3AC57A0819E6294800E3D796 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC57A0719E6294800E3D796 /* Foundation.framework */; };
 		3AC57A0A19E6294800E3D796 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC57A0919E6294800E3D796 /* CoreGraphics.framework */; };
 		3AC57A0C19E6294800E3D796 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC57A0B19E6294800E3D796 /* UIKit.framework */; };
@@ -32,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A4B002319E62D8E004CD072 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = MVCExercise/MainViewController.h; sourceTree = "<group>"; };
+		3A4B002419E62D8E004CD072 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = MVCExercise/MainViewController.m; sourceTree = "<group>"; };
 		3AC57A0419E6294800E3D796 /* MVCExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVCExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AC57A0719E6294800E3D796 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3AC57A0919E6294800E3D796 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -77,6 +80,8 @@
 		3AC579FB19E6294700E3D796 = {
 			isa = PBXGroup;
 			children = (
+				3A4B002319E62D8E004CD072 /* MainViewController.h */,
+				3A4B002419E62D8E004CD072 /* MainViewController.m */,
 				3AC57A0D19E6294800E3D796 /* MVCExercise */,
 				3AC57A2619E6294800E3D796 /* MVCExerciseTests */,
 				3AC57A0619E6294800E3D796 /* Frameworks */,
@@ -240,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AC57A1819E6294800E3D796 /* AppDelegate.m in Sources */,
+				3A4B002519E62D8E004CD072 /* MainViewController.m in Sources */,
 				3AC57A1419E6294800E3D796 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +443,7 @@
 				3AC57A3219E6294800E3D796 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3AC57A3319E6294800E3D796 /* Build configuration list for PBXNativeTarget "MVCExerciseTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +452,7 @@
 				3AC57A3519E6294800E3D796 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
