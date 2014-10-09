@@ -20,7 +20,17 @@
     // Call the superclass's designated initializer
     self = [super initWithStyle:UITableViewStylePlain];
     if (self) {
-        self.attribute = @[@"Letter",@"Color",@"Number"];
+        self.array = [[NSMutableArray alloc]init];
+        NSDictionary *letterDict = [NSDictionary dictionaryWithObjectsAndKeys:
+                                    @"Letter", @"Title",nil];
+        NSDictionary *colorDict = [NSDictionary dictionaryWithObjectsAndKeys:
+                                    @"Color", @"Title",nil];
+        NSDictionary *foodDict = [NSDictionary dictionaryWithObjectsAndKeys:
+                                    @"Food", @"Title",nil];
+        [self.array addObject:letterDict];
+        [self.array addObject:colorDict];
+        [self.array addObject:foodDict];
+        NSLog(@"%@",self.array);
     }
 
     return self;
@@ -56,7 +66,7 @@
 {
 
     // Return the number of rows in the section.
-    return self.attribute.count;
+    return self.array.count;
 }
 
 
@@ -69,7 +79,7 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
     
-     [cell.textLabel setText:[self.attribute objectAtIndex:indexPath.row]];
+    [cell.textLabel setText:[[self.array objectAtIndex:indexPath.row] objectForKey: @"Title"]];
     
     // Configure the cell...
     
@@ -77,7 +87,7 @@
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    NSLog(@"attribute %@, indexPath %@",[self.attribute objectAtIndex:indexPath.row],indexPath);
+    NSLog(@"attribute %@, indexPath %@",[self.array objectAtIndex:indexPath.row],indexPath);
     LevelViewController *levelViewController =[[LevelViewController alloc] init];
     
     [self.navigationController pushViewController:levelViewController
