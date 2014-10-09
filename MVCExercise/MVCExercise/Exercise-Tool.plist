@@ -1,5 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict/>
+<dict>
+	<key>Item0</key>
+	<dict>
+		<key>itemTitle</key>
+		<string>A</string>
+		<key>itemImage</key>
+		<string></string>
+		<key>description</key>
+		<string>The 1st Letter of the Alphabet</string>
+		<key>itemCategory</key>
+		<string>Letter</string>
+	</dict>
+	<key>Item1</key>
+	<dict>
+		<key>itemTitle</key>
+		<string>B</string>
+		<key>itemImage</key>
+		<string></string>
+		<key>description</key>
+		<string>The 2nd Letter of the Alphabet</string>
+		<key>itemCategory</key>
+		<string>Letter</string>
+	</dict>
+	<key>Item2</key>
+	<dict>
+		<key>itemTitle</key>
+		<string>C</string>
+		<key>itemImage</key>
+		<string></string>
+		<key>description</key>
+		<string>The 3rd Letter of the Alphabet</string>
+		<key>itemCategory</key>
+		<string>Letter</string>
+	</dict>
+	<key>Item3</key>
+	<dict>
+		<key>itemTitle</key>
+		<string>Red</string>
+		<key>itemImage</key>
+		<string></string>
+		<key>description</key>
+		<string>The 1st Color of the Rainbow</string>
+		<key>itemCategory</key>
+		<string>Color</string>
+	</dict>
+	<key>Item4</key>
+	<dict>
+		<key>itemTitle</key>
+		<string>Green</string>
+		<key>itemImage</key>
+		<string></string>
+		<key>description</key>
+		<string>The 2nd Color of the Rainbow</string>
+		<key>itemCategory</key>
+		<string>Color</string>
+	</dict>
+	<key>Item5</key>
+	<dict>
+		<key>itemTitle</key>
+		<string>Blue</string>
+		<key>itemImage</key>
+		<string></string>
+		<key>description</key>
+		<string>The 3rd Color of the Rainbow</string>
+		<key>itemCategory</key>
+		<string>Color</string>
+	</dict>
+	<key>Item6</key>
+	<dict>
+		<key>itemTitle</key>
+		<string>Egg Benedict</string>
+		<key>itemImage</key>
+		<string></string>
+		<key>description</key>
+		<string>Made with Egg</string>
+		<key>itemCategory</key>
+		<string>Food</string>
+	</dict>
+	<key>Item7</key>
+	<dict>
+		<key>itemTitle</key>
+		<string>Mushroom Risotto</string>
+		<key>itemImage</key>
+		<string></string>
+		<key>description</key>
+		<string>Made with Mushroom</string>
+		<key>itemCategory</key>
+		<string>Food</string>
+	</dict>
+	<key>Item8</key>
+	<dict>
+		<key>itemTitle</key>
+		<string>Hamburger</string>
+		<key>itemImage</key>
+		<string></string>
+		<key>description</key>
+		<string>Made with Burger</string>
+		<key>itemCategory</key>
+		<string>Food</string>
+	</dict>
+</dict>
 </plist>
