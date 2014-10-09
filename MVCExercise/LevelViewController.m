@@ -7,6 +7,7 @@
 //
 
 #import "LevelViewController.h"
+#import "DetailViewController.h"
 
 @interface LevelViewController ()
 
@@ -18,6 +19,7 @@
 {
     // Call the superclass's designated initializer
     self = [super initWithStyle:UITableViewStylePlain];
+    self.letter = @[@"A",@"B",@"C"];
     return self;
 }
 
@@ -71,7 +73,14 @@
     return cell;
 }
 
-
+- (void)tableView:(UITableView *)tableView
+didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    DetailViewController *detailViewController =[[DetailViewController alloc] init];
+    
+    [self.navigationController pushViewController:detailViewController
+                                         animated:YES];
+}
 /*
 // Override to support conditional editing of the table view.
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath

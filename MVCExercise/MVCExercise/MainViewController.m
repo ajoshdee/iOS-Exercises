@@ -7,6 +7,7 @@
 //
 
 #import "MainViewController.h"
+#import "LevelViewController.h"
 
 @interface MainViewController ()
 
@@ -77,6 +78,10 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     NSLog(@"attribute %@, indexPath %@",[self.attribute objectAtIndex:indexPath.row],indexPath);
+    LevelViewController *levelViewController =[[LevelViewController alloc] init];
+    
+    [self.navigationController pushViewController:levelViewController
+                                              animated:YES];
 }
 
 /*

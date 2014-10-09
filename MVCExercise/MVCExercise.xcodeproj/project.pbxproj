@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		3A4B002519E62D8E004CD072 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4B002419E62D8E004CD072 /* MainViewController.m */; };
+		3A4B002D19E63EB8004CD072 /* LevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4B002C19E63EB8004CD072 /* LevelViewController.m */; };
+		3A4B003419E65398004CD072 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4B003219E65398004CD072 /* DetailViewController.m */; };
+		3A4B003519E65398004CD072 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A4B003319E65398004CD072 /* DetailViewController.xib */; };
 		3AC57A0819E6294800E3D796 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC57A0719E6294800E3D796 /* Foundation.framework */; };
 		3AC57A0A19E6294800E3D796 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC57A0919E6294800E3D796 /* CoreGraphics.framework */; };
 		3AC57A0C19E6294800E3D796 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC57A0B19E6294800E3D796 /* UIKit.framework */; };
@@ -35,6 +38,11 @@
 /* Begin PBXFileReference section */
 		3A4B002319E62D8E004CD072 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = MVCExercise/MainViewController.h; sourceTree = "<group>"; };
 		3A4B002419E62D8E004CD072 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = MVCExercise/MainViewController.m; sourceTree = "<group>"; };
+		3A4B002B19E63EB8004CD072 /* LevelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelViewController.h; sourceTree = "<group>"; };
+		3A4B002C19E63EB8004CD072 /* LevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelViewController.m; sourceTree = "<group>"; };
+		3A4B003119E65398004CD072 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		3A4B003219E65398004CD072 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		3A4B003319E65398004CD072 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 		3AC57A0419E6294800E3D796 /* MVCExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVCExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AC57A0719E6294800E3D796 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3AC57A0919E6294800E3D796 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -80,8 +88,13 @@
 		3AC579FB19E6294700E3D796 = {
 			isa = PBXGroup;
 			children = (
+				3A4B003119E65398004CD072 /* DetailViewController.h */,
+				3A4B003219E65398004CD072 /* DetailViewController.m */,
+				3A4B003319E65398004CD072 /* DetailViewController.xib */,
 				3A4B002319E62D8E004CD072 /* MainViewController.h */,
 				3A4B002419E62D8E004CD072 /* MainViewController.m */,
+				3A4B002B19E63EB8004CD072 /* LevelViewController.h */,
+				3A4B002C19E63EB8004CD072 /* LevelViewController.m */,
 				3AC57A0D19E6294800E3D796 /* MVCExercise */,
 				3AC57A2619E6294800E3D796 /* MVCExerciseTests */,
 				3AC57A0619E6294800E3D796 /* Frameworks */,
@@ -225,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AC57A1219E6294800E3D796 /* InfoPlist.strings in Resources */,
+				3A4B003519E65398004CD072 /* DetailViewController.xib in Resources */,
 				3AC57A1A19E6294800E3D796 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,9 +258,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A4B003419E65398004CD072 /* DetailViewController.m in Sources */,
 				3AC57A1819E6294800E3D796 /* AppDelegate.m in Sources */,
 				3A4B002519E62D8E004CD072 /* MainViewController.m in Sources */,
 				3AC57A1419E6294800E3D796 /* main.m in Sources */,
+				3A4B002D19E63EB8004CD072 /* LevelViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
