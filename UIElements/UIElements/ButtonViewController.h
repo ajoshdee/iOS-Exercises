@@ -1,5 +1,5 @@
 //
-//  MainViewController.h
+//  ButtonViewController.h
 //  UIElements
 //
 //  Created by Josh Dee on 10/9/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MainViewController : UITableViewController
-@property (nonatomic,strong) NSArray *array;
+@interface ButtonViewController : UIViewController
+
 @end

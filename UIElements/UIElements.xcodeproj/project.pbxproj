@@ -19,6 +19,10 @@
 		3ABB67DB19E681BB006026D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ABB67C319E681BB006026D0 /* UIKit.framework */; };
 		3ABB67E319E681BB006026D0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3ABB67E119E681BB006026D0 /* InfoPlist.strings */; };
 		3ABB67E519E681BB006026D0 /* UIElementsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABB67E419E681BB006026D0 /* UIElementsTests.m */; };
+		3ABB67F019E6839A006026D0 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABB67EF19E6839A006026D0 /* MainViewController.m */; };
+		3ABB67F719E686D8006026D0 /* ButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABB67F519E686D8006026D0 /* ButtonViewController.m */; };
+		3ABB67F819E686D8006026D0 /* ButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3ABB67F619E686D8006026D0 /* ButtonViewController.xib */; };
+		3ABB67FA19E68A13006026D0 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ABB67F919E68A13006026D0 /* button.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,12 @@
 		3ABB67E019E681BB006026D0 /* UIElementsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIElementsTests-Info.plist"; sourceTree = "<group>"; };
 		3ABB67E219E681BB006026D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3ABB67E419E681BB006026D0 /* UIElementsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIElementsTests.m; sourceTree = "<group>"; };
+		3ABB67EE19E6839A006026D0 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		3ABB67EF19E6839A006026D0 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		3ABB67F419E686D8006026D0 /* ButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonViewController.h; sourceTree = "<group>"; };
+		3ABB67F519E686D8006026D0 /* ButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonViewController.m; sourceTree = "<group>"; };
+		3ABB67F619E686D8006026D0 /* ButtonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ButtonViewController.xib; sourceTree = "<group>"; };
+		3ABB67F919E68A13006026D0 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +87,8 @@
 		3ABB67B319E681BB006026D0 = {
 			isa = PBXGroup;
 			children = (
+				3ABB67EE19E6839A006026D0 /* MainViewController.h */,
+				3ABB67EF19E6839A006026D0 /* MainViewController.m */,
 				3ABB67C519E681BB006026D0 /* UIElements */,
 				3ABB67DE19E681BB006026D0 /* UIElementsTests */,
 				3ABB67BE19E681BB006026D0 /* Frameworks */,
@@ -108,7 +120,11 @@
 			isa = PBXGroup;
 			children = (
 				3ABB67CE19E681BB006026D0 /* AppDelegate.h */,
+				3ABB67F419E686D8006026D0 /* ButtonViewController.h */,
+				3ABB67F519E686D8006026D0 /* ButtonViewController.m */,
+				3ABB67F619E686D8006026D0 /* ButtonViewController.xib */,
 				3ABB67CF19E681BB006026D0 /* AppDelegate.m */,
+				3ABB67F919E68A13006026D0 /* button.png */,
 				3ABB67D119E681BB006026D0 /* Images.xcassets */,
 				3ABB67C619E681BB006026D0 /* Supporting Files */,
 			);
@@ -219,6 +235,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ABB67F819E686D8006026D0 /* ButtonViewController.xib in Resources */,
+				3ABB67FA19E68A13006026D0 /* button.png in Resources */,
 				3ABB67CA19E681BB006026D0 /* InfoPlist.strings in Resources */,
 				3ABB67D219E681BB006026D0 /* Images.xcassets in Resources */,
 			);
@@ -239,7 +257,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ABB67F719E686D8006026D0 /* ButtonViewController.m in Sources */,
 				3ABB67D019E681BB006026D0 /* AppDelegate.m in Sources */,
+				3ABB67F019E6839A006026D0 /* MainViewController.m in Sources */,
 				3ABB67CC19E681BB006026D0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +457,7 @@
 				3ABB67EA19E681BB006026D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3ABB67EB19E681BB006026D0 /* Build configuration list for PBXNativeTarget "UIElementsTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +466,7 @@
 				3ABB67ED19E681BB006026D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

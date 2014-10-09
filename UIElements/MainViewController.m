@@ -7,20 +7,24 @@
 //
 
 #import "MainViewController.h"
-
+#import "ButtonViewController.h"
 @interface MainViewController ()
 
 @end
 
 @implementation MainViewController
 
+- (id)init
+{
+    // Call the superclass's designated initializer
+    self = [super initWithStyle:UITableViewStylePlain];
+    self.array = @[@"A",@"B",@"C"];
+    return self;
+}
+
 - (id)initWithStyle:(UITableViewStyle)style
 {
-    self = [super initWithStyle:style];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
+       return [self init];
 }
 
 - (void)viewDidLoad
@@ -42,30 +46,41 @@
 
 #pragma mark - Table view data source
 
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
-{
-#warning Potentially incomplete method implementation.
-    // Return the number of sections.
-    return 0;
-}
+
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-#warning Incomplete method implementation.
+
     // Return the number of rows in the section.
-    return 0;
+    return self.array.count;
 }
 
-/*
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
+    static NSString *CellIdentifier = @"Cell";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+    }
+    
+    [cell.textLabel setText:[self.array objectAtIndex:indexPath.row]];
+
     
     // Configure the cell...
     
     return cell;
 }
-*/
+
+- (void)tableView:(UITableView *)tableView
+didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+     ButtonViewController *buttonViewController =[[ButtonViewController alloc] init];
+    
+    [self.navigationController pushViewController:buttonViewController
+                                         animated:YES];
+}
 
 /*
 // Override to support conditional editing of the table view.
