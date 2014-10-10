@@ -8,6 +8,8 @@
 
 #import "MainViewController.h"
 #import "ButtonViewController.h"
+#import "AlertViewController.h"
+
 @interface MainViewController ()
 
 @end
@@ -76,9 +78,9 @@
 - (void)tableView:(UITableView *)tableView
 didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-     ButtonViewController *buttonViewController =[[ButtonViewController alloc] init];
-    
-    [self.navigationController pushViewController:buttonViewController
+     //ButtonViewController *buttonViewController =[[ButtonViewController alloc] init];
+    AlertViewController *alertViewController =[[AlertViewController alloc] init];
+    [self.navigationController pushViewController:alertViewController
                                          animated:YES];
 }
 
