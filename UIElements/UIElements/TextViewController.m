@@ -8,11 +8,24 @@
 
 #import "TextViewController.h"
 
-@interface TextViewController ()
+@interface TextViewController () <UITextFieldDelegate>
+@property (weak, nonatomic) IBOutlet UILabel *textLabel;
+@property (weak, nonatomic) IBOutlet UITextField *textField;
 
 @end
 
 @implementation TextViewController
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    
+    self.textLabel.text = textField.text;
+    
+    self.textField.text = @"";
+    [self.textField resignFirstResponder];
+    
+    return YES;
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
