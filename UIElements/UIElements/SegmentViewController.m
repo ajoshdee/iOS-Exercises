@@ -9,10 +9,37 @@
 #import "SegmentViewController.h"
 
 @interface SegmentViewController ()
+@property (weak, nonatomic) IBOutlet UIView *imageView;
+@property (weak, nonatomic) IBOutlet UIView *detailView;
+@property (weak, nonatomic) IBOutlet UIView *factsView;
 
 @end
 
 @implementation SegmentViewController
+- (IBAction)segmentedValueChanged:(UISegmentedControl *)sender {
+    
+    switch (sender.selectedSegmentIndex) {
+        case 0:
+            self.factsView.hidden = YES;
+            self.detailView.hidden = YES;
+            self.imageView.hidden = NO;
+            break;
+        case 1:
+            self.factsView.hidden = YES;
+            self.detailView.hidden = NO;
+            self.imageView.hidden = YES;
+            break;
+        case 2:
+            self.factsView.hidden = NO;
+            self.detailView.hidden = YES;
+            self.imageView.hidden = YES;
+            break;
+            
+        default:
+            break;
+    }
+
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

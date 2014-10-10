@@ -6,6 +6,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SegmentViewController">
             <connections>
+                <outlet property="detailView" destination="cSb-vK-hkX" id="b3Z-br-qwC"/>
+                <outlet property="factsView" destination="tob-14-jZY" id="XPB-LR-Z9w"/>
+                <outlet property="imageView" destination="LZc-R6-w7u" id="7fF-mS-WLk"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -15,17 +18,59 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="C76-5B-bcz">
-                    <rect key="frame" x="99" y="169" width="123" height="29"/>
+                    <rect key="frame" x="15" y="514" width="285" height="29"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <segments>
-                        <segment title="First"/>
-                        <segment title="Second"/>
+                        <segment title="Image"/>
+                        <segment title="Detail"/>
+                        <segment title="Facts"/>
                     </segments>
+                    <connections>
+                        <action selector="segmentedValueChanged:" destination="-1" eventType="valueChanged" id="bsj-Z4-bQg"/>
+                    </connections>
                 </segmentedControl>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LZc-R6-w7u" userLabel="Image">
+                    <rect key="frame" x="0.0" y="48" width="320" height="445"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image.png" translatesAutoresizingMaskIntoConstraints="NO" id="2q7-bx-Uft">
+                            <rect key="frame" x="15" y="26" width="285" height="284"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cSb-vK-hkX" userLabel="Detail">
+                    <rect key="frame" x="0.0" y="48" width="320" height="445"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="details.png" translatesAutoresizingMaskIntoConstraints="NO" id="0VG-nM-chP">
+                            <rect key="frame" x="15" y="26" width="285" height="284"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tob-14-jZY" userLabel="Facts">
+                    <rect key="frame" x="0.0" y="48" width="320" height="445"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="facts.png" translatesAutoresizingMaskIntoConstraints="NO" id="3Qz-fs-o2k">
+                            <rect key="frame" x="15" y="26" width="285" height="284"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
         </view>
     </objects>
+    <resources>
+        <image name="details.png" width="271" height="223"/>
+        <image name="facts.png" width="285" height="284"/>
+        <image name="image.png" width="283" height="330"/>
+    </resources>
 </document>
