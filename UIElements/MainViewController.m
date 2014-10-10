@@ -12,6 +12,7 @@
 #import "AlertViewController.h"
 #import "ActionViewController.h"
 #import "TextViewController.h"
+#import "PickerViewController.h"
 
 @interface MainViewController ()
 
@@ -83,15 +84,18 @@ didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     //ButtonViewController *buttonViewController =[[ButtonViewController alloc] init];
      //ControlViewController *controlViewController =[[ControlViewController alloc] init];
-    TextViewController *textViewController =[[TextViewController alloc] init];
+    //TextViewController *textViewController =[[TextViewController alloc] init];
+    PickerViewController *pickerViewController =[[PickerViewController alloc] init];
       //  AlertViewController *alertViewController =[[AlertViewController alloc] init];
    //ActionViewController *actionViewController =[[ActionViewController alloc] init];
     //[self.navigationController pushViewController:buttonViewController
                                          //animated:YES];
     //[self.navigationController pushViewController:controlViewController
                                     //     animated:YES];
-    [self.navigationController pushViewController:textViewController
-                                            animated:YES];
+    //[self.navigationController pushViewController:textViewController
+                                           // animated:YES];
+    [self.navigationController pushViewController:pickerViewController
+                                         animated:YES];
     //[self.navigationController pushViewController:actionViewController
                                          //animated:YES];
 }
