@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AA225B819E7C47A0065D33F /* ActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA2259F19E7C47A0065D33F /* ActionViewController.m */; };
+		3AA225B919E7C47A0065D33F /* AlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA225A119E7C47A0065D33F /* AlertViewController.m */; };
+		3AA225BA19E7C47A0065D33F /* ControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA225A319E7C47A0065D33F /* ControlViewController.m */; };
+		3AA225BB19E7C47A0065D33F /* ControlViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AA225A419E7C47A0065D33F /* ControlViewController.xib */; };
+		3AA225BC19E7C47A0065D33F /* images.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AA225A519E7C47A0065D33F /* images.png */; };
+		3AA225BD19E7C47A0065D33F /* ImagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA225A719E7C47A0065D33F /* ImagesViewController.m */; };
+		3AA225BE19E7C47A0065D33F /* ImagesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AA225A819E7C47A0065D33F /* ImagesViewController.xib */; };
+		3AA225BF19E7C47A0065D33F /* PickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA225AA19E7C47A0065D33F /* PickerViewController.m */; };
+		3AA225C019E7C47A0065D33F /* PickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AA225AB19E7C47A0065D33F /* PickerViewController.xib */; };
+		3AA225C119E7C47A0065D33F /* SegmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA225AD19E7C47A0065D33F /* SegmentViewController.m */; };
+		3AA225C219E7C47A0065D33F /* SegmentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AA225AE19E7C47A0065D33F /* SegmentViewController.xib */; };
+		3AA225C319E7C47A0065D33F /* TabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA225B019E7C47A0065D33F /* TabViewController.m */; };
+		3AA225C419E7C47A0065D33F /* TabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AA225B119E7C47A0065D33F /* TabViewController.xib */; };
+		3AA225C519E7C47A0065D33F /* TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA225B319E7C47A0065D33F /* TextViewController.m */; };
+		3AA225C619E7C47A0065D33F /* TextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AA225B419E7C47A0065D33F /* TextViewController.xib */; };
+		3AA225C719E7C47A0065D33F /* ToolbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA225B619E7C47A0065D33F /* ToolbarViewController.m */; };
+		3AA225C819E7C47A0065D33F /* ToolbarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AA225B719E7C47A0065D33F /* ToolbarViewController.xib */; };
 		3ABB67C019E681BB006026D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ABB67BF19E681BB006026D0 /* Foundation.framework */; };
 		3ABB67C219E681BB006026D0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ABB67C119E681BB006026D0 /* CoreGraphics.framework */; };
 		3ABB67C419E681BB006026D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ABB67C319E681BB006026D0 /* UIKit.framework */; };
@@ -36,6 +53,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3AA2259E19E7C47A0065D33F /* ActionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionViewController.h; sourceTree = "<group>"; };
+		3AA2259F19E7C47A0065D33F /* ActionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionViewController.m; sourceTree = "<group>"; };
+		3AA225A019E7C47A0065D33F /* AlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertViewController.h; sourceTree = "<group>"; };
+		3AA225A119E7C47A0065D33F /* AlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertViewController.m; sourceTree = "<group>"; };
+		3AA225A219E7C47A0065D33F /* ControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlViewController.h; sourceTree = "<group>"; };
+		3AA225A319E7C47A0065D33F /* ControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControlViewController.m; sourceTree = "<group>"; };
+		3AA225A419E7C47A0065D33F /* ControlViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ControlViewController.xib; sourceTree = "<group>"; };
+		3AA225A519E7C47A0065D33F /* images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = images.png; sourceTree = "<group>"; };
+		3AA225A619E7C47A0065D33F /* ImagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagesViewController.h; sourceTree = "<group>"; };
+		3AA225A719E7C47A0065D33F /* ImagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagesViewController.m; sourceTree = "<group>"; };
+		3AA225A819E7C47A0065D33F /* ImagesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImagesViewController.xib; sourceTree = "<group>"; };
+		3AA225A919E7C47A0065D33F /* PickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerViewController.h; sourceTree = "<group>"; };
+		3AA225AA19E7C47A0065D33F /* PickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerViewController.m; sourceTree = "<group>"; };
+		3AA225AB19E7C47A0065D33F /* PickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PickerViewController.xib; sourceTree = "<group>"; };
+		3AA225AC19E7C47A0065D33F /* SegmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentViewController.h; sourceTree = "<group>"; };
+		3AA225AD19E7C47A0065D33F /* SegmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentViewController.m; sourceTree = "<group>"; };
+		3AA225AE19E7C47A0065D33F /* SegmentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SegmentViewController.xib; sourceTree = "<group>"; };
+		3AA225AF19E7C47A0065D33F /* TabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabViewController.h; sourceTree = "<group>"; };
+		3AA225B019E7C47A0065D33F /* TabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabViewController.m; sourceTree = "<group>"; };
+		3AA225B119E7C47A0065D33F /* TabViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabViewController.xib; sourceTree = "<group>"; };
+		3AA225B219E7C47A0065D33F /* TextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewController.h; sourceTree = "<group>"; };
+		3AA225B319E7C47A0065D33F /* TextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewController.m; sourceTree = "<group>"; };
+		3AA225B419E7C47A0065D33F /* TextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextViewController.xib; sourceTree = "<group>"; };
+		3AA225B519E7C47A0065D33F /* ToolbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolbarViewController.h; sourceTree = "<group>"; };
+		3AA225B619E7C47A0065D33F /* ToolbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolbarViewController.m; sourceTree = "<group>"; };
+		3AA225B719E7C47A0065D33F /* ToolbarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ToolbarViewController.xib; sourceTree = "<group>"; };
 		3ABB67BC19E681BB006026D0 /* UIElements.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIElements.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ABB67BF19E681BB006026D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3ABB67C119E681BB006026D0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -119,10 +162,36 @@
 		3ABB67C519E681BB006026D0 /* UIElements */ = {
 			isa = PBXGroup;
 			children = (
-				3ABB67CE19E681BB006026D0 /* AppDelegate.h */,
+				3AA2259E19E7C47A0065D33F /* ActionViewController.h */,
+				3AA2259F19E7C47A0065D33F /* ActionViewController.m */,
+				3AA225A019E7C47A0065D33F /* AlertViewController.h */,
+				3AA225A119E7C47A0065D33F /* AlertViewController.m */,
+				3AA225A219E7C47A0065D33F /* ControlViewController.h */,
+				3AA225A319E7C47A0065D33F /* ControlViewController.m */,
+				3AA225A419E7C47A0065D33F /* ControlViewController.xib */,
+				3AA225A519E7C47A0065D33F /* images.png */,
+				3AA225A619E7C47A0065D33F /* ImagesViewController.h */,
+				3AA225A719E7C47A0065D33F /* ImagesViewController.m */,
+				3AA225A819E7C47A0065D33F /* ImagesViewController.xib */,
+				3AA225A919E7C47A0065D33F /* PickerViewController.h */,
+				3AA225AA19E7C47A0065D33F /* PickerViewController.m */,
+				3AA225AB19E7C47A0065D33F /* PickerViewController.xib */,
+				3AA225AC19E7C47A0065D33F /* SegmentViewController.h */,
+				3AA225AD19E7C47A0065D33F /* SegmentViewController.m */,
+				3AA225AE19E7C47A0065D33F /* SegmentViewController.xib */,
+				3AA225AF19E7C47A0065D33F /* TabViewController.h */,
+				3AA225B019E7C47A0065D33F /* TabViewController.m */,
+				3AA225B119E7C47A0065D33F /* TabViewController.xib */,
+				3AA225B219E7C47A0065D33F /* TextViewController.h */,
+				3AA225B319E7C47A0065D33F /* TextViewController.m */,
+				3AA225B419E7C47A0065D33F /* TextViewController.xib */,
+				3AA225B519E7C47A0065D33F /* ToolbarViewController.h */,
+				3AA225B619E7C47A0065D33F /* ToolbarViewController.m */,
+				3AA225B719E7C47A0065D33F /* ToolbarViewController.xib */,
 				3ABB67F419E686D8006026D0 /* ButtonViewController.h */,
 				3ABB67F519E686D8006026D0 /* ButtonViewController.m */,
 				3ABB67F619E686D8006026D0 /* ButtonViewController.xib */,
+				3ABB67CE19E681BB006026D0 /* AppDelegate.h */,
 				3ABB67CF19E681BB006026D0 /* AppDelegate.m */,
 				3ABB67F919E68A13006026D0 /* button.png */,
 				3ABB67D119E681BB006026D0 /* Images.xcassets */,
@@ -235,9 +304,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AA225BB19E7C47A0065D33F /* ControlViewController.xib in Resources */,
 				3ABB67F819E686D8006026D0 /* ButtonViewController.xib in Resources */,
+				3AA225C619E7C47A0065D33F /* TextViewController.xib in Resources */,
 				3ABB67FA19E68A13006026D0 /* button.png in Resources */,
+				3AA225C819E7C47A0065D33F /* ToolbarViewController.xib in Resources */,
+				3AA225BC19E7C47A0065D33F /* images.png in Resources */,
+				3AA225BE19E7C47A0065D33F /* ImagesViewController.xib in Resources */,
 				3ABB67CA19E681BB006026D0 /* InfoPlist.strings in Resources */,
+				3AA225C219E7C47A0065D33F /* SegmentViewController.xib in Resources */,
+				3AA225C019E7C47A0065D33F /* PickerViewController.xib in Resources */,
+				3AA225C419E7C47A0065D33F /* TabViewController.xib in Resources */,
 				3ABB67D219E681BB006026D0 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,10 +334,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AA225C319E7C47A0065D33F /* TabViewController.m in Sources */,
+				3AA225BA19E7C47A0065D33F /* ControlViewController.m in Sources */,
 				3ABB67F719E686D8006026D0 /* ButtonViewController.m in Sources */,
+				3AA225C519E7C47A0065D33F /* TextViewController.m in Sources */,
+				3AA225C719E7C47A0065D33F /* ToolbarViewController.m in Sources */,
 				3ABB67D019E681BB006026D0 /* AppDelegate.m in Sources */,
 				3ABB67F019E6839A006026D0 /* MainViewController.m in Sources */,
+				3AA225BF19E7C47A0065D33F /* PickerViewController.m in Sources */,
 				3ABB67CC19E681BB006026D0 /* main.m in Sources */,
+				3AA225B819E7C47A0065D33F /* ActionViewController.m in Sources */,
+				3AA225BD19E7C47A0065D33F /* ImagesViewController.m in Sources */,
+				3AA225C119E7C47A0065D33F /* SegmentViewController.m in Sources */,
+				3AA225B919E7C47A0065D33F /* AlertViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

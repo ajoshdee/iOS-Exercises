@@ -9,10 +9,14 @@
 #import "ImagesViewController.h"
 
 @interface ImagesViewController ()
+@property (weak, nonatomic) IBOutlet UIImageView *image;
 
 @end
 
 @implementation ImagesViewController
+- (IBAction)resizeImage:(id)sender {
+    self.image.frame = CGRectMake(self.image.frame.origin.x, self.image.frame.origin.y, [[UIImage imageNamed:@"images.png"] size].width, [[UIImage imageNamed:@"images.png"] size].height);
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
