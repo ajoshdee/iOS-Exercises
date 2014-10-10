@@ -9,6 +9,7 @@
 #import "MainViewController.h"
 #import "ButtonViewController.h"
 #import "AlertViewController.h"
+#import "ActionViewController.h"
 
 @interface MainViewController ()
 
@@ -79,8 +80,9 @@
 didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
      //ButtonViewController *buttonViewController =[[ButtonViewController alloc] init];
-    AlertViewController *alertViewController =[[AlertViewController alloc] init];
-    [self.navigationController pushViewController:alertViewController
+      //  AlertViewController *alertViewController =[[AlertViewController alloc] init];
+   ActionViewController *actionViewController =[[ActionViewController alloc] init];
+    [self.navigationController pushViewController:actionViewController
                                          animated:YES];
 }
 
