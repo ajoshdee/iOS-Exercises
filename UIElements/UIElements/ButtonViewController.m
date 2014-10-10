@@ -10,6 +10,7 @@
 #import <QuartzCore/QuartzCore.h>
 
 @interface ButtonViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *textLabel;
 @property (weak, nonatomic) IBOutlet UIButton *customButton;
 
 @end
@@ -38,6 +39,12 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)helloButton:(id)sender {
+    self.textLabel.text = @"Hello!";
+}
+- (IBAction)byeButton:(id)sender {
+    self.textLabel.text = @"Goodbye!";
 }
 
 @end

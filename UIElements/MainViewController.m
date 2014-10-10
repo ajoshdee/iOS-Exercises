@@ -79,11 +79,13 @@
 - (void)tableView:(UITableView *)tableView
 didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-     //ButtonViewController *buttonViewController =[[ButtonViewController alloc] init];
+    ButtonViewController *buttonViewController =[[ButtonViewController alloc] init];
       //  AlertViewController *alertViewController =[[AlertViewController alloc] init];
-   ActionViewController *actionViewController =[[ActionViewController alloc] init];
-    [self.navigationController pushViewController:actionViewController
+   //ActionViewController *actionViewController =[[ActionViewController alloc] init];
+    [self.navigationController pushViewController:buttonViewController
                                          animated:YES];
+    //[self.navigationController pushViewController:actionViewController
+                                         //animated:YES];
 }
 
 /*
