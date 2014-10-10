@@ -9,6 +9,8 @@
 #import "ControlViewController.h"
 
 @interface ControlViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *textLabel;
+@property (weak, nonatomic) IBOutlet UISwitch *showTextSwitch;
 
 @end
 
@@ -21,6 +23,23 @@
         // Custom initialization
     }
     return self;
+}
+- (IBAction)switchPressedAction:(id)sender {
+    if(self.showTextSwitch.on)
+        
+    {
+        
+        self.textLabel.text = @"Hello!";
+        
+    }
+    
+    else
+        
+    {
+        
+          self.textLabel.text = @"";
+        
+    }
 }
 
 - (void)viewDidLoad
