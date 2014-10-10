@@ -12,6 +12,8 @@
 @property (weak, nonatomic) IBOutlet UILabel *textLabel;
 @property (weak, nonatomic) IBOutlet UISwitch *showTextSwitch;
 
+@property (weak, nonatomic) IBOutlet UISlider *slider;
+@property (weak, nonatomic) IBOutlet UILabel *sliderValue;
 @end
 
 @implementation ControlViewController
@@ -40,6 +42,9 @@
           self.textLabel.text = @"";
         
     }
+}
+- (IBAction)sliderValueChanged:(id)sender {
+     self.sliderValue.text = [NSString stringWithFormat:@"%f", self.slider.value];
 }
 
 - (void)viewDidLoad
