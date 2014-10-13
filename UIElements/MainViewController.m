@@ -19,6 +19,7 @@
 #import "TabViewController.h"
 #import "secondTabViewController.h"
 #import "WebViewController.h"
+#import "CoreLocationViewController.h"
 
 @interface MainViewController ()
 
@@ -30,7 +31,7 @@
 {
     // Call the superclass's designated initializer
     self = [super initWithStyle:UITableViewStylePlain];
-    self.array = @[@"UIButton",@"UIControl",@"Text View", @"UIPickerView", @"UIImageView", @"UISegmentedControl", @"UIToolBar", @"UITabBar", @"UIAlertView", @"UIActionSheet", @"UIWebView"];
+    self.array = @[@"UIButton",@"UIControl",@"Text View", @"UIPickerView", @"UIImageView", @"UISegmentedControl", @"UIToolBar", @"UITabBar", @"UIAlertView", @"UIActionSheet", @"UIWebView", @"CoreLocation"];
     return self;
 }
 
@@ -126,7 +127,6 @@ didSelectRowAtIndexPath:(NSIndexPath *)indexPath
         [self.navigationController pushViewController:tab animated:YES];
 
     }
-   
     else if (indexPath.row == 8){
         AlertViewController *alertViewController =[[AlertViewController alloc] init];
         [self.navigationController pushViewController:alertViewController animated:YES];
@@ -138,6 +138,10 @@ didSelectRowAtIndexPath:(NSIndexPath *)indexPath
     else if (indexPath.row == 10){
         WebViewController *webViewController =[[WebViewController alloc] init];
         [self.navigationController pushViewController:webViewController animated:YES];
+    }
+    else if (indexPath.row == 11){
+        CoreLocationViewController *coreLocationViewController =[[CoreLocationViewController alloc] init];
+        [self.navigationController pushViewController:coreLocationViewController animated:YES];
     }
 }
 

@@ -47,6 +47,9 @@
 		3ABB67FA19E68A13006026D0 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ABB67F919E68A13006026D0 /* button.png */; };
 		3AEFACC719EBA63200C2BB27 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AEFACC519EBA63200C2BB27 /* WebViewController.m */; };
 		3AEFACC819EBA63200C2BB27 /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AEFACC619EBA63200C2BB27 /* WebViewController.xib */; };
+		3AEFACCC19EBC28300C2BB27 /* CoreLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AEFACCA19EBC28300C2BB27 /* CoreLocationViewController.m */; };
+		3AEFACCD19EBC28300C2BB27 /* CoreLocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AEFACCB19EBC28300C2BB27 /* CoreLocationViewController.xib */; };
+		3AEFACCF19EBC2F200C2BB27 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AEFACCE19EBC2F200C2BB27 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,6 +120,10 @@
 		3AEFACC419EBA63200C2BB27 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		3AEFACC519EBA63200C2BB27 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		3AEFACC619EBA63200C2BB27 /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
+		3AEFACC919EBC28300C2BB27 /* CoreLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreLocationViewController.h; sourceTree = "<group>"; };
+		3AEFACCA19EBC28300C2BB27 /* CoreLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreLocationViewController.m; sourceTree = "<group>"; };
+		3AEFACCB19EBC28300C2BB27 /* CoreLocationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CoreLocationViewController.xib; sourceTree = "<group>"; };
+		3AEFACCE19EBC2F200C2BB27 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AEFACCF19EBC2F200C2BB27 /* CoreLocation.framework in Frameworks */,
 				3ABB67C219E681BB006026D0 /* CoreGraphics.framework in Frameworks */,
 				3ABB67C419E681BB006026D0 /* UIKit.framework in Frameworks */,
 				3ABB67C019E681BB006026D0 /* Foundation.framework in Frameworks */,
@@ -167,6 +175,7 @@
 		3ABB67BE19E681BB006026D0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3AEFACCE19EBC2F200C2BB27 /* CoreLocation.framework */,
 				3ABB67BF19E681BB006026D0 /* Foundation.framework */,
 				3ABB67C119E681BB006026D0 /* CoreGraphics.framework */,
 				3ABB67C319E681BB006026D0 /* UIKit.framework */,
@@ -213,6 +222,9 @@
 				3AEFACC419EBA63200C2BB27 /* WebViewController.h */,
 				3AEFACC519EBA63200C2BB27 /* WebViewController.m */,
 				3AEFACC619EBA63200C2BB27 /* WebViewController.xib */,
+				3AEFACC919EBC28300C2BB27 /* CoreLocationViewController.h */,
+				3AEFACCA19EBC28300C2BB27 /* CoreLocationViewController.m */,
+				3AEFACCB19EBC28300C2BB27 /* CoreLocationViewController.xib */,
 				3ABB67CE19E681BB006026D0 /* AppDelegate.h */,
 				3ABB67CF19E681BB006026D0 /* AppDelegate.m */,
 				3ABB67F919E68A13006026D0 /* button.png */,
@@ -335,6 +347,7 @@
 				3ABB67FA19E68A13006026D0 /* button.png in Resources */,
 				3AA225C819E7C47A0065D33F /* ToolbarViewController.xib in Resources */,
 				3AA225BC19E7C47A0065D33F /* images.png in Resources */,
+				3AEFACCD19EBC28300C2BB27 /* CoreLocationViewController.xib in Resources */,
 				3AA225BE19E7C47A0065D33F /* ImagesViewController.xib in Resources */,
 				3ABB67CA19E681BB006026D0 /* InfoPlist.strings in Resources */,
 				3A57FD6A19E7D10000E60029 /* details.png in Resources */,
@@ -372,6 +385,7 @@
 				3AA225C719E7C47A0065D33F /* ToolbarViewController.m in Sources */,
 				3ABB67D019E681BB006026D0 /* AppDelegate.m in Sources */,
 				3ABB67F019E6839A006026D0 /* MainViewController.m in Sources */,
+				3AEFACCC19EBC28300C2BB27 /* CoreLocationViewController.m in Sources */,
 				3AA225BF19E7C47A0065D33F /* PickerViewController.m in Sources */,
 				3A304D9119EB61BE009CB28F /* secondTabViewController.m in Sources */,
 				3ABB67CC19E681BB006026D0 /* main.m in Sources */,
