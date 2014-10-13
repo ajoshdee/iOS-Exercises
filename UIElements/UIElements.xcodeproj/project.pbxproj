@@ -50,6 +50,7 @@
 		3AEFACCC19EBC28300C2BB27 /* CoreLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AEFACCA19EBC28300C2BB27 /* CoreLocationViewController.m */; };
 		3AEFACCD19EBC28300C2BB27 /* CoreLocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AEFACCB19EBC28300C2BB27 /* CoreLocationViewController.xib */; };
 		3AEFACCF19EBC2F200C2BB27 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AEFACCE19EBC2F200C2BB27 /* CoreLocation.framework */; };
+		3AEFACD119EBC96200C2BB27 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AEFACD019EBC96200C2BB27 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -124,6 +125,7 @@
 		3AEFACCA19EBC28300C2BB27 /* CoreLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreLocationViewController.m; sourceTree = "<group>"; };
 		3AEFACCB19EBC28300C2BB27 /* CoreLocationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CoreLocationViewController.xib; sourceTree = "<group>"; };
 		3AEFACCE19EBC2F200C2BB27 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3AEFACD019EBC96200C2BB27 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AEFACD119EBC96200C2BB27 /* MapKit.framework in Frameworks */,
 				3AEFACCF19EBC2F200C2BB27 /* CoreLocation.framework in Frameworks */,
 				3ABB67C219E681BB006026D0 /* CoreGraphics.framework in Frameworks */,
 				3ABB67C419E681BB006026D0 /* UIKit.framework in Frameworks */,
@@ -175,6 +178,7 @@
 		3ABB67BE19E681BB006026D0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3AEFACD019EBC96200C2BB27 /* MapKit.framework */,
 				3AEFACCE19EBC2F200C2BB27 /* CoreLocation.framework */,
 				3ABB67BF19E681BB006026D0 /* Foundation.framework */,
 				3ABB67C119E681BB006026D0 /* CoreGraphics.framework */,

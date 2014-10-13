@@ -7,7 +7,8 @@
 //
 
 #import "CoreLocationViewController.h"
-
+#import <MapKit/MapKit.h>
+#define METERS_PER_MILE 1609.344
 @interface CoreLocationViewController ()
 
 @end
@@ -33,6 +34,8 @@
     
     self.locationManager.delegate = self;
     self.location = [[CLLocation alloc] init];
+    
+
 }
 
 - (void)didReceiveMemoryWarning
@@ -41,8 +44,16 @@
     // Dispose of any resources that can be recreated.
 }
 - (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations{
+    
     self.location = locations.lastObject;
     self.latitudeLabel.text = [NSString stringWithFormat:@"%f", self.location.coordinate.latitude];
     self.LongitudeLabel.text = [NSString stringWithFormat:@"%f", self.location.coordinate.longitude];
+    MKCoordinateRegion viewRegion;
+    
+    viewRegion.center.longitude = self.location.coordinate.longitude;
+    viewRegion.center.latitude = self.location.coordinate.latitude;
+    viewRegion.span.latitudeDelta = 0.03;
+    viewRegion.span.longitudeDelta = 0.03;
+    [_mapView setRegion:viewRegion animated: YES];
 }
 @end
