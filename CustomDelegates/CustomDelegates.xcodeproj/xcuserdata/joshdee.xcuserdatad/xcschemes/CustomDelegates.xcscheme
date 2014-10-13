@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3AEFAC9119EBA33600C2BB27"
+               BlueprintIdentifier = "3A72872919EB7B9F009D4069"
                BuildableName = "CustomDelegates.app"
                BlueprintName = "CustomDelegates"
                ReferencedContainer = "container:CustomDelegates.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3AEFACAC19EBA33600C2BB27"
+               BlueprintIdentifier = "3A72874419EB7B9F009D4069"
                BuildableName = "CustomDelegatesTests.xctest"
                BlueprintName = "CustomDelegatesTests"
                ReferencedContainer = "container:CustomDelegates.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3AEFAC9119EBA33600C2BB27"
+            BlueprintIdentifier = "3A72872919EB7B9F009D4069"
             BuildableName = "CustomDelegates.app"
             BlueprintName = "CustomDelegates"
             ReferencedContainer = "container:CustomDelegates.xcodeproj">
@@ -61,7 +61,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3AEFAC9119EBA33600C2BB27"
+            BlueprintIdentifier = "3A72872919EB7B9F009D4069"
             BuildableName = "CustomDelegates.app"
             BlueprintName = "CustomDelegates"
             ReferencedContainer = "container:CustomDelegates.xcodeproj">
@@ -79,7 +79,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3AEFAC9119EBA33600C2BB27"
+            BlueprintIdentifier = "3A72872919EB7B9F009D4069"
             BuildableName = "CustomDelegates.app"
             BlueprintName = "CustomDelegates"
             ReferencedContainer = "container:CustomDelegates.xcodeproj">
