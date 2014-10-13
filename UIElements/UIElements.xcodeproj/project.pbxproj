@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A304D8D19EB5562009CB28F /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A304D8C19EB5562009CB28F /* image.png */; };
 		3A57FD6A19E7D10000E60029 /* details.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A57FD6919E7D10000E60029 /* details.png */; };
 		3A57FD6C19E7D24000E60029 /* facts.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A57FD6B19E7D24000E60029 /* facts.png */; };
-		3A57FD6E19E7D28B00E60029 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A57FD6D19E7D28B00E60029 /* image.png */; };
 		3AA225B819E7C47A0065D33F /* ActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA2259F19E7C47A0065D33F /* ActionViewController.m */; };
 		3AA225B919E7C47A0065D33F /* AlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA225A119E7C47A0065D33F /* AlertViewController.m */; };
 		3AA225BA19E7C47A0065D33F /* ControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA225A319E7C47A0065D33F /* ControlViewController.m */; };
@@ -56,9 +56,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3A57FD6919E7D10000E60029 /* details.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = details.png; path = ../../../details.png; sourceTree = "<group>"; };
-		3A57FD6B19E7D24000E60029 /* facts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = facts.png; path = ../../../facts.png; sourceTree = "<group>"; };
-		3A57FD6D19E7D28B00E60029 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image.png; path = ../../../image.png; sourceTree = "<group>"; };
+		3A304D8C19EB5562009CB28F /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		3A57FD6919E7D10000E60029 /* details.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = details.png; sourceTree = "<group>"; };
+		3A57FD6B19E7D24000E60029 /* facts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facts.png; sourceTree = "<group>"; };
 		3AA2259E19E7C47A0065D33F /* ActionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionViewController.h; sourceTree = "<group>"; };
 		3AA2259F19E7C47A0065D33F /* ActionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionViewController.m; sourceTree = "<group>"; };
 		3AA225A019E7C47A0065D33F /* AlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertViewController.h; sourceTree = "<group>"; };
@@ -200,7 +200,7 @@
 				3ABB67CE19E681BB006026D0 /* AppDelegate.h */,
 				3ABB67CF19E681BB006026D0 /* AppDelegate.m */,
 				3ABB67F919E68A13006026D0 /* button.png */,
-				3A57FD6D19E7D28B00E60029 /* image.png */,
+				3A304D8C19EB5562009CB28F /* image.png */,
 				3A57FD6B19E7D24000E60029 /* facts.png */,
 				3A57FD6919E7D10000E60029 /* details.png */,
 				3ABB67D119E681BB006026D0 /* Images.xcassets */,
@@ -327,7 +327,7 @@
 				3A57FD6C19E7D24000E60029 /* facts.png in Resources */,
 				3AA225C419E7C47A0065D33F /* TabViewController.xib in Resources */,
 				3ABB67D219E681BB006026D0 /* Images.xcassets in Resources */,
-				3A57FD6E19E7D28B00E60029 /* image.png in Resources */,
+				3A304D8D19EB5562009CB28F /* image.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

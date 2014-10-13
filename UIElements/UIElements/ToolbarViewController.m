@@ -13,6 +13,15 @@
 @end
 
 @implementation ToolbarViewController
+- (IBAction)btnRedTouched:(id)sender {
+     self.view.backgroundColor = [UIColor redColor];
+}
+- (IBAction)btnGreenTouched:(id)sender {
+    self.view.backgroundColor = [UIColor greenColor];
+}
+- (IBAction)btnBlueTouched:(id)sender {
+     self.view.backgroundColor = [UIColor blueColor];
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

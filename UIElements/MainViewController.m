@@ -15,6 +15,7 @@
 #import "PickerViewController.h"
 #import "ImagesViewController.h"
 #import "SegmentViewController.h"
+#import "ToolbarViewController.h"
 
 @interface MainViewController ()
 
@@ -89,8 +90,9 @@ didSelectRowAtIndexPath:(NSIndexPath *)indexPath
     //TextViewController *textViewController =[[TextViewController alloc] init];
    // PickerViewController *pickerViewController =[[PickerViewController alloc] init];
      //ImagesViewController *imagesViewController =[[ImagesViewController alloc] init];
-    SegmentViewController *segmentViewController =[[SegmentViewController alloc] init];
-      //  AlertViewController *alertViewController =[[AlertViewController alloc] init];
+   // SegmentViewController *segmentViewController =[[SegmentViewController alloc] init];
+    //ToolbarViewController *toolbarViewController =[[ToolbarViewController alloc] init];
+     AlertViewController *alertViewController =[[AlertViewController alloc] init];
    //ActionViewController *actionViewController =[[ActionViewController alloc] init];
     //[self.navigationController pushViewController:buttonViewController
                                          //animated:YES];
@@ -102,8 +104,12 @@ didSelectRowAtIndexPath:(NSIndexPath *)indexPath
                                          //animated:YES];
     //[self.navigationController pushViewController:imagesViewController
                                          //animated:YES];
-    [self.navigationController pushViewController:segmentViewController
-                                        animated:YES];
+    //[self.navigationController pushViewController:segmentViewController
+                                        //animated:YES];
+    //[self.navigationController pushViewController:toolbarViewController
+      //                                   animated:YES];
+    [self.navigationController pushViewController:alertViewController
+                                      animated:YES];
     //[self.navigationController pushViewController:actionViewController
                                          //animated:YES];
 }
