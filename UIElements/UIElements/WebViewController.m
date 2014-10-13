@@ -30,10 +30,18 @@
     NSURL *url = [NSURL URLWithString:fullURL];
     NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
 
-    [self.webViewController loadRequest:requestObj];
     
     NSURLConnection *connection = [[NSURLConnection alloc] initWithRequest:requestObj delegate:self];
     
+     NSOperationQueue *queue = [[NSOperationQueue alloc] init];
+    
+    [NSURLConnection sendAsynchronousRequest:requestObj queue:queue completionHandler:^(NSURLResponse *response, NSData *data, NSError *error)
+     {
+         if ([data length] > 0 && error == nil)
+             [self.webViewController loadRequest:requestObj];
+         
+         else if (error != nil) NSLog(@"Error: %@", error);
+     }];
     if( connection )
     {
         _responseData = [[NSMutableData alloc] init];
