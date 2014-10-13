@@ -20,17 +20,15 @@
     // Call the superclass's designated initializer
     self = [super initWithStyle:UITableViewStylePlain];
     if (self) {
-        self.array = [[NSMutableArray alloc]init];
+        self.titles = [[NSMutableArray alloc]init];
         NSDictionary *letterDict = [NSDictionary dictionaryWithObjectsAndKeys:
                                     @"Letter", @"Title",nil];
         NSDictionary *colorDict = [NSDictionary dictionaryWithObjectsAndKeys:
                                     @"Color", @"Title",nil];
         NSDictionary *foodDict = [NSDictionary dictionaryWithObjectsAndKeys:
                                     @"Food", @"Title",nil];
-        [self.array addObject:letterDict];
-        [self.array addObject:colorDict];
-        [self.array addObject:foodDict];
-        NSLog(@"%@",self.array);
+        self.titles = [[NSMutableArray alloc] initWithObjects: letterDict, colorDict, foodDict, nil];
+        
     }
 
     return self;
@@ -66,7 +64,7 @@
 {
 
     // Return the number of rows in the section.
-    return self.array.count;
+    return self.titles.count;
 }
 
 
@@ -79,7 +77,7 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
     
-    [cell.textLabel setText:[[self.array objectAtIndex:indexPath.row] objectForKey: @"Title"]];
+    [cell.textLabel setText:[[self.titles objectAtIndex:indexPath.row] objectForKey: @"Title"]];
     
     // Configure the cell...
     
@@ -87,9 +85,12 @@
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    NSLog(@"attribute %@, indexPath %@",[self.array objectAtIndex:indexPath.row],indexPath);
+    NSLog(@"attribute %@, indexPath %@",[self.titles objectAtIndex:indexPath.row],indexPath);
     LevelViewController *levelViewController =[[LevelViewController alloc] init];
     
+    UITableViewCell *cell = [[self tableView] cellForRowAtIndexPath:indexPath];
+    levelViewController.title = cell.textLabel.text;
+    [levelViewController setCategory:[[self.titles objectAtIndex:indexPath.row] objectForKey: @"Title"]];
     [self.navigationController pushViewController:levelViewController
                                               animated:YES];
 }

@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-	<key>Item0</key>
+<array>
 	<dict>
 		<key>itemTitle</key>
 		<string>A</string>
@@ -13,7 +12,6 @@
 		<key>itemCategory</key>
 		<string>Letter</string>
 	</dict>
-	<key>Item1</key>
 	<dict>
 		<key>itemTitle</key>
 		<string>B</string>
@@ -24,7 +22,6 @@
 		<key>itemCategory</key>
 		<string>Letter</string>
 	</dict>
-	<key>Item2</key>
 	<dict>
 		<key>itemTitle</key>
 		<string>C</string>
@@ -35,7 +32,6 @@
 		<key>itemCategory</key>
 		<string>Letter</string>
 	</dict>
-	<key>Item3</key>
 	<dict>
 		<key>itemTitle</key>
 		<string>Red</string>
@@ -46,7 +42,6 @@
 		<key>itemCategory</key>
 		<string>Color</string>
 	</dict>
-	<key>Item4</key>
 	<dict>
 		<key>itemTitle</key>
 		<string>Green</string>
@@ -57,7 +52,6 @@
 		<key>itemCategory</key>
 		<string>Color</string>
 	</dict>
-	<key>Item5</key>
 	<dict>
 		<key>itemTitle</key>
 		<string>Blue</string>
@@ -68,7 +62,6 @@
 		<key>itemCategory</key>
 		<string>Color</string>
 	</dict>
-	<key>Item6</key>
 	<dict>
 		<key>itemTitle</key>
 		<string>Egg Benedict</string>
@@ -79,7 +72,6 @@
 		<key>itemCategory</key>
 		<string>Food</string>
 	</dict>
-	<key>Item7</key>
 	<dict>
 		<key>itemTitle</key>
 		<string>Mushroom Risotto</string>
@@ -90,7 +82,6 @@
 		<key>itemCategory</key>
 		<string>Food</string>
 	</dict>
-	<key>Item8</key>
 	<dict>
 		<key>itemTitle</key>
 		<string>Hamburger</string>
@@ -101,5 +92,5 @@
 		<key>itemCategory</key>
 		<string>Food</string>
 	</dict>
-</dict>
+</array>
 </plist>

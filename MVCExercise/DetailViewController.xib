@@ -6,9 +6,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailViewController">
             <connections>
-                <outlet property="childTitleField" destination="LT6-Cd-YN0" id="5Sf-fe-wKg"/>
-                <outlet property="detailField" destination="paW-lP-HNw" id="JGr-ee-HU0"/>
-                <outlet property="parentTitleField" destination="F5B-LW-Fmi" id="PTo-0s-gkq"/>
+                <outlet property="description" destination="paW-lP-HNw" id="4tP-WD-uMe"/>
+                <outlet property="itemCategory" destination="F5B-LW-Fmi" id="gga-xZ-Ac4"/>
+                <outlet property="itemTitle" destination="LT6-Cd-YN0" id="KxV-Yb-Tga"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -39,13 +39,13 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F5B-LW-Fmi">
-                    <rect key="frame" x="98" y="265" width="42" height="21"/>
+                    <rect key="frame" x="98" y="265" width="197" height="21"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LT6-Cd-YN0">
-                    <rect key="frame" x="98" y="133" width="42" height="21"/>
+                    <rect key="frame" x="98" y="133" width="197" height="21"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="highlightedColor"/>

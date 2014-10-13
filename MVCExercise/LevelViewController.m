@@ -8,36 +8,35 @@
 
 #import "LevelViewController.h"
 #import "DetailViewController.h"
+#import "ItemModel.h"
 
 @interface LevelViewController ()
-
+@property(nonatomic) NSMutableArray *itemModels;
 @end
 
 @implementation LevelViewController
 
-- (id)init
-{
-    // Call the superclass's designated initializer
-    self = [super initWithStyle:UITableViewStylePlain];
-    self.letter = @[@"A",@"B",@"C"];
-    return self;
-}
-
-- (id)initWithStyle:(UITableViewStyle)style
-{
-    
-    return [self init];
-}
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"Exercise-Tool" ofType:@"plist"];
+    self.itemModels = [[NSMutableArray alloc] init];
+    NSMutableArray *arrayNotFiltered = [NSMutableArray arrayWithContentsOfFile:filePath];
+    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"(itemCategory == %@)",_category];
+    /* _itemCategory not specified: list all */
+    if(!_category){
+        predicate = [NSPredicate predicateWithValue:YES];
+    }
     
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    NSArray *filteredarray = [arrayNotFiltered filteredArrayUsingPredicate:predicate];
+    
+    for (NSDictionary *dict in filteredarray) {
+        ItemModel *item = [[ItemModel alloc] initWithDictionary:dict];
+        [self.itemModels addObject:item];
+    }
+
 }
 
 - (void)didReceiveMemoryWarning
@@ -52,7 +51,7 @@
 {
 
     // Return the number of rows in the section.
-    return self.letter.count;
+    return self.itemModels.count;
 }
 
 
@@ -64,8 +63,10 @@
     if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
+     NSString *text = [self.itemModels[indexPath.row] itemTitle];
     
-    [cell.textLabel setText:[self.letter objectAtIndex:indexPath.row]];
+    [cell.textLabel setText:text];
+    
 
     
     // Configure the cell...
@@ -78,6 +79,7 @@ didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     DetailViewController *detailViewController =[[DetailViewController alloc] init];
     
+    [detailViewController setItemmodel:_itemModels[indexPath.row]];
     [self.navigationController pushViewController:detailViewController
                                          animated:YES];
 }

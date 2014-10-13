@@ -9,13 +9,21 @@
 #import "DetailViewController.h"
 
 @interface DetailViewController ()
-@property (weak, nonatomic) IBOutlet UILabel *childTitleField;
-@property (weak, nonatomic) IBOutlet UILabel *parentTitleField;
-@property (weak, nonatomic) IBOutlet UILabel *detailField;
+@property (weak, nonatomic) IBOutlet UILabel *itemTitle;
+@property (weak, nonatomic) IBOutlet UILabel *description;
+@property (weak, nonatomic) IBOutlet UILabel *itemCategory;
+
 
 @end
 
 @implementation DetailViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    [self.itemTitle setText:[self.itemmodel itemTitle]];
+    [self.description setText:[self.itemmodel description]];
+    [self.itemCategory setText:[self.itemmodel itemCategory]];
+}
 
 
 @end
