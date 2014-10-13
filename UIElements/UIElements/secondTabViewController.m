@@ -1,25 +1,25 @@
 //
-//  TabViewController.m
+//  secondTabViewController.m
 //  UIElements
 //
-//  Created by Josh Dee on 10/10/14.
+//  Created by Josh Dee on 10/13/14.
 //  Copyright (c) 2014 Klab Cyscorpions. All rights reserved.
 //
 
-#import "TabViewController.h"
+#import "secondTabViewController.h"
 
-@interface TabViewController ()
+@interface secondTabViewController ()
 
 @end
 
-@implementation TabViewController
+@implementation secondTabViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
-        self.tabBarItem.title = @"First";
+        self.tabBarItem.title = @"Second";
     }
     return self;
 }

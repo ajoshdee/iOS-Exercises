@@ -9,6 +9,7 @@
 #import "ActionViewController.h"
 
 @interface ActionViewController ()
+@property (nonatomic, strong) UILabel *label;
 - (void)showActionSheet:(id)sender;
 @end
 
@@ -32,7 +33,15 @@
     [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     button.tintColor = [UIColor darkGrayColor];
     [button addTarget:self action:@selector(showActionSheet:) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:button];}
+    [self.view addSubview:button];
+
+    CGRect labelRect = CGRectMake(40, 100, 240, 30);
+    self.label = [[UILabel alloc] initWithFrame:labelRect];
+    self.label.font = [UIFont boldSystemFontOfSize:16.0f];
+    self.label.layer.borderColor = [UIColor blackColor].CGColor;
+    [self.view addSubview:self.label];
+    
+}
 
 - (void)didReceiveMemoryWarning
 {
@@ -43,9 +52,9 @@
 {
     NSString *actionSheetTitle = @"Action Sheet";
     NSString *destructiveTitle = @"Destructive Button";
-    NSString *other1 = @"Other Button 1";
-    NSString *other2 = @"Other Button 2";
-    NSString *other3 = @"Other Button 3";
+    NSString *other1 = @"Button 1";
+    NSString *other2 = @"Button 2";
+    NSString *other3 = @"Button 3";
     NSString *cancelTitle = @"Cancel Button";
     
     UIActionSheet *actionSheet = [[UIActionSheet alloc]
@@ -63,19 +72,19 @@
     NSString *buttonTitle = [actionSheet buttonTitleAtIndex:buttonIndex];
     
     if  ([buttonTitle isEqualToString:@"Destructive Button"]) {
-        NSLog(@"Destructive pressed --> Delete Something");
+        self.label.text = @ "Destructive Button";
     }
-    if ([buttonTitle isEqualToString:@"Other Button 1"]) {
-        NSLog(@"Other 1 pressed");
+    if ([buttonTitle isEqualToString:@"Button 1"]) {
+        self.label.text = @ "Button 1";
     }
-    if ([buttonTitle isEqualToString:@"Other Button 2"]) {
-        NSLog(@"Other 2 pressed");
+    if ([buttonTitle isEqualToString:@"Button 2"]) {
+        self.label.text = @ "Button 2";
     }
-    if ([buttonTitle isEqualToString:@"Other Button 3"]) {
-        NSLog(@"Other 3 pressed");
+    if ([buttonTitle isEqualToString:@"Button 3"]) {
+       self.label.text = @ "Button 3";
     }
     if ([buttonTitle isEqualToString:@"Cancel Button"]) {
-        NSLog(@"Cancel pressed --> Cancel ActionSheet");
+    self.label.text = @ "Cancel";
     }
 }
 

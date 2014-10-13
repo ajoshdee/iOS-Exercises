@@ -16,6 +16,8 @@
 #import "ImagesViewController.h"
 #import "SegmentViewController.h"
 #import "ToolbarViewController.h"
+#import "TabViewController.h"
+#import "secondTabViewController.h"
 
 @interface MainViewController ()
 
@@ -27,7 +29,7 @@
 {
     // Call the superclass's designated initializer
     self = [super initWithStyle:UITableViewStylePlain];
-    self.array = @[@"A",@"B",@"C"];
+    self.array = @[@"UIButton",@"UIControl",@"Text View", @"UIPickerView", @"UIImageView", @"UISegmentedControl", @"UIToolBar", @"UITabBar", @"UIAlertView", @"UIActionSheet"];
     return self;
 }
 
@@ -85,33 +87,54 @@
 - (void)tableView:(UITableView *)tableView
 didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    //ButtonViewController *buttonViewController =[[ButtonViewController alloc] init];
-     //ControlViewController *controlViewController =[[ControlViewController alloc] init];
-    //TextViewController *textViewController =[[TextViewController alloc] init];
-   // PickerViewController *pickerViewController =[[PickerViewController alloc] init];
-     //ImagesViewController *imagesViewController =[[ImagesViewController alloc] init];
-   // SegmentViewController *segmentViewController =[[SegmentViewController alloc] init];
-    //ToolbarViewController *toolbarViewController =[[ToolbarViewController alloc] init];
-     AlertViewController *alertViewController =[[AlertViewController alloc] init];
-   //ActionViewController *actionViewController =[[ActionViewController alloc] init];
-    //[self.navigationController pushViewController:buttonViewController
-                                         //animated:YES];
-    //[self.navigationController pushViewController:controlViewController
-                                    //     animated:YES];
-    //[self.navigationController pushViewController:textViewController
-                                           // animated:YES];
-   // [self.navigationController pushViewController:pickerViewController
-                                         //animated:YES];
-    //[self.navigationController pushViewController:imagesViewController
-                                         //animated:YES];
-    //[self.navigationController pushViewController:segmentViewController
-                                        //animated:YES];
-    //[self.navigationController pushViewController:toolbarViewController
-      //                                   animated:YES];
-    [self.navigationController pushViewController:alertViewController
-                                      animated:YES];
-    //[self.navigationController pushViewController:actionViewController
-                                         //animated:YES];
+    if (indexPath.row == 0) {
+        ButtonViewController *buttonViewController =[[ButtonViewController alloc] init];
+        [self.navigationController pushViewController:buttonViewController animated:YES];
+    }
+    
+    else if (indexPath.row == 1) {
+        ControlViewController *controlViewController =[[ControlViewController alloc] init];
+        [self.navigationController pushViewController:controlViewController animated:YES];
+    }
+    
+    else if (indexPath.row == 2){
+        TextViewController *textViewController =[[TextViewController alloc] init];
+        [self.navigationController pushViewController:textViewController animated:YES];
+    }
+    else if (indexPath.row == 3){
+        PickerViewController *pickerViewController =[[PickerViewController alloc] init];
+        [self.navigationController pushViewController:pickerViewController animated:YES];
+    }
+    else if (indexPath.row == 4){
+        ImagesViewController *imagesViewController =[[ImagesViewController alloc] init];
+        [self.navigationController pushViewController:imagesViewController animated:YES];
+    }
+    else if (indexPath.row == 5){
+        SegmentViewController *segmentViewController =[[SegmentViewController alloc] init];
+        [self.navigationController pushViewController:segmentViewController animated:YES];
+    }
+    else if (indexPath.row == 6){
+        ToolbarViewController *toolbarViewController =[[ToolbarViewController alloc] init];
+        [self.navigationController pushViewController:toolbarViewController animated:YES];
+    }
+    else if (indexPath.row == 7){
+        UITabBarController *tab = [[UITabBarController alloc] init];
+        TabViewController *tvc = [[TabViewController alloc] init];
+        secondTabViewController *stvc = [[secondTabViewController alloc] init];
+        tab.viewControllers = @[tvc,stvc];
+        [self.navigationController pushViewController:tab animated:YES];
+
+    }
+   
+    else if (indexPath.row == 8){
+        AlertViewController *alertViewController =[[AlertViewController alloc] init];
+        [self.navigationController pushViewController:alertViewController animated:YES];
+    }
+    else if (indexPath.row == 9){
+        ActionViewController *actionViewController =[[ActionViewController alloc] init];
+        [self.navigationController pushViewController:actionViewController animated:YES];
+    }
+
 }
 
 /*

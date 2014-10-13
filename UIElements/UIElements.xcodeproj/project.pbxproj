@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3A304D8D19EB5562009CB28F /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A304D8C19EB5562009CB28F /* image.png */; };
+		3A304D9119EB61BE009CB28F /* secondTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A304D8F19EB61BE009CB28F /* secondTabViewController.m */; };
+		3A304D9219EB61BE009CB28F /* secondTabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A304D9019EB61BE009CB28F /* secondTabViewController.xib */; };
 		3A57FD6A19E7D10000E60029 /* details.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A57FD6919E7D10000E60029 /* details.png */; };
 		3A57FD6C19E7D24000E60029 /* facts.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A57FD6B19E7D24000E60029 /* facts.png */; };
 		3AA225B819E7C47A0065D33F /* ActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA2259F19E7C47A0065D33F /* ActionViewController.m */; };
@@ -57,6 +59,9 @@
 
 /* Begin PBXFileReference section */
 		3A304D8C19EB5562009CB28F /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		3A304D8E19EB61BE009CB28F /* secondTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secondTabViewController.h; sourceTree = "<group>"; };
+		3A304D8F19EB61BE009CB28F /* secondTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = secondTabViewController.m; sourceTree = "<group>"; };
+		3A304D9019EB61BE009CB28F /* secondTabViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = secondTabViewController.xib; sourceTree = "<group>"; };
 		3A57FD6919E7D10000E60029 /* details.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = details.png; sourceTree = "<group>"; };
 		3A57FD6B19E7D24000E60029 /* facts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facts.png; sourceTree = "<group>"; };
 		3AA2259E19E7C47A0065D33F /* ActionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionViewController.h; sourceTree = "<group>"; };
@@ -188,6 +193,9 @@
 				3AA225AF19E7C47A0065D33F /* TabViewController.h */,
 				3AA225B019E7C47A0065D33F /* TabViewController.m */,
 				3AA225B119E7C47A0065D33F /* TabViewController.xib */,
+				3A304D8E19EB61BE009CB28F /* secondTabViewController.h */,
+				3A304D8F19EB61BE009CB28F /* secondTabViewController.m */,
+				3A304D9019EB61BE009CB28F /* secondTabViewController.xib */,
 				3AA225B219E7C47A0065D33F /* TextViewController.h */,
 				3AA225B319E7C47A0065D33F /* TextViewController.m */,
 				3AA225B419E7C47A0065D33F /* TextViewController.xib */,
@@ -327,6 +335,7 @@
 				3A57FD6C19E7D24000E60029 /* facts.png in Resources */,
 				3AA225C419E7C47A0065D33F /* TabViewController.xib in Resources */,
 				3ABB67D219E681BB006026D0 /* Images.xcassets in Resources */,
+				3A304D9219EB61BE009CB28F /* secondTabViewController.xib in Resources */,
 				3A304D8D19EB5562009CB28F /* image.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,6 +363,7 @@
 				3ABB67D019E681BB006026D0 /* AppDelegate.m in Sources */,
 				3ABB67F019E6839A006026D0 /* MainViewController.m in Sources */,
 				3AA225BF19E7C47A0065D33F /* PickerViewController.m in Sources */,
+				3A304D9119EB61BE009CB28F /* secondTabViewController.m in Sources */,
 				3ABB67CC19E681BB006026D0 /* main.m in Sources */,
 				3AA225B819E7C47A0065D33F /* ActionViewController.m in Sources */,
 				3AA225BD19E7C47A0065D33F /* ImagesViewController.m in Sources */,
