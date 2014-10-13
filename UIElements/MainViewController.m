@@ -18,6 +18,7 @@
 #import "ToolbarViewController.h"
 #import "TabViewController.h"
 #import "secondTabViewController.h"
+#import "WebViewController.h"
 
 @interface MainViewController ()
 
@@ -29,7 +30,7 @@
 {
     // Call the superclass's designated initializer
     self = [super initWithStyle:UITableViewStylePlain];
-    self.array = @[@"UIButton",@"UIControl",@"Text View", @"UIPickerView", @"UIImageView", @"UISegmentedControl", @"UIToolBar", @"UITabBar", @"UIAlertView", @"UIActionSheet"];
+    self.array = @[@"UIButton",@"UIControl",@"Text View", @"UIPickerView", @"UIImageView", @"UISegmentedControl", @"UIToolBar", @"UITabBar", @"UIAlertView", @"UIActionSheet", @"UIWebView"];
     return self;
 }
 
@@ -134,7 +135,10 @@ didSelectRowAtIndexPath:(NSIndexPath *)indexPath
         ActionViewController *actionViewController =[[ActionViewController alloc] init];
         [self.navigationController pushViewController:actionViewController animated:YES];
     }
-
+    else if (indexPath.row == 10){
+        WebViewController *webViewController =[[WebViewController alloc] init];
+        [self.navigationController pushViewController:webViewController animated:YES];
+    }
 }
 
 /*
