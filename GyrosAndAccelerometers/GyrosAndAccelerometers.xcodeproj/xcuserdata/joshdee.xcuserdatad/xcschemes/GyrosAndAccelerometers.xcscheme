@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3AC579C019E621E400E3D796"
+               BlueprintIdentifier = "3AC5797D19E614F700E3D796"
                BuildableName = "GyrosAndAccelerometers.app"
                BlueprintName = "GyrosAndAccelerometers"
                ReferencedContainer = "container:GyrosAndAccelerometers.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3AC579E119E621E400E3D796"
+               BlueprintIdentifier = "3AC5799E19E614F700E3D796"
                BuildableName = "GyrosAndAccelerometersTests.xctest"
                BlueprintName = "GyrosAndAccelerometersTests"
                ReferencedContainer = "container:GyrosAndAccelerometers.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3AC579C019E621E400E3D796"
+            BlueprintIdentifier = "3AC5797D19E614F700E3D796"
             BuildableName = "GyrosAndAccelerometers.app"
             BlueprintName = "GyrosAndAccelerometers"
             ReferencedContainer = "container:GyrosAndAccelerometers.xcodeproj">
@@ -61,7 +61,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3AC579C019E621E400E3D796"
+            BlueprintIdentifier = "3AC5797D19E614F700E3D796"
             BuildableName = "GyrosAndAccelerometers.app"
             BlueprintName = "GyrosAndAccelerometers"
             ReferencedContainer = "container:GyrosAndAccelerometers.xcodeproj">
@@ -79,7 +79,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3AC579C019E621E400E3D796"
+            BlueprintIdentifier = "3AC5797D19E614F700E3D796"
             BuildableName = "GyrosAndAccelerometers.app"
             BlueprintName = "GyrosAndAccelerometers"
             ReferencedContainer = "container:GyrosAndAccelerometers.xcodeproj">

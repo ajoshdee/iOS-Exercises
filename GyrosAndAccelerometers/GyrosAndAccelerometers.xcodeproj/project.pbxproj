@@ -7,151 +7,151 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3AC579C519E621E400E3D796 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC579C419E621E400E3D796 /* Foundation.framework */; };
-		3AC579C719E621E400E3D796 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC579C619E621E400E3D796 /* CoreGraphics.framework */; };
-		3AC579C919E621E400E3D796 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC579C819E621E400E3D796 /* UIKit.framework */; };
-		3AC579CF19E621E400E3D796 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3AC579CD19E621E400E3D796 /* InfoPlist.strings */; };
-		3AC579D119E621E400E3D796 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC579D019E621E400E3D796 /* main.m */; };
-		3AC579D519E621E400E3D796 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC579D419E621E400E3D796 /* AppDelegate.m */; };
-		3AC579D819E621E400E3D796 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AC579D619E621E400E3D796 /* Main.storyboard */; };
-		3AC579DB19E621E400E3D796 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC579DA19E621E400E3D796 /* ViewController.m */; };
-		3AC579DD19E621E400E3D796 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AC579DC19E621E400E3D796 /* Images.xcassets */; };
-		3AC579E419E621E400E3D796 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC579E319E621E400E3D796 /* XCTest.framework */; };
-		3AC579E519E621E400E3D796 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC579C419E621E400E3D796 /* Foundation.framework */; };
-		3AC579E619E621E400E3D796 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC579C819E621E400E3D796 /* UIKit.framework */; };
-		3AC579EE19E621E400E3D796 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3AC579EC19E621E400E3D796 /* InfoPlist.strings */; };
-		3AC579F019E621E400E3D796 /* GyrosAndAccelerometersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC579EF19E621E400E3D796 /* GyrosAndAccelerometersTests.m */; };
-		3AC579FA19E6220200E3D796 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC579F919E6220200E3D796 /* CoreMotion.framework */; };
+		3AC5798219E614F700E3D796 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5798119E614F700E3D796 /* Foundation.framework */; };
+		3AC5798419E614F700E3D796 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5798319E614F700E3D796 /* CoreGraphics.framework */; };
+		3AC5798619E614F700E3D796 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5798519E614F700E3D796 /* UIKit.framework */; };
+		3AC5798C19E614F700E3D796 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3AC5798A19E614F700E3D796 /* InfoPlist.strings */; };
+		3AC5798E19E614F700E3D796 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC5798D19E614F700E3D796 /* main.m */; };
+		3AC5799219E614F700E3D796 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC5799119E614F700E3D796 /* AppDelegate.m */; };
+		3AC5799519E614F700E3D796 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AC5799319E614F700E3D796 /* Main.storyboard */; };
+		3AC5799819E614F700E3D796 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC5799719E614F700E3D796 /* ViewController.m */; };
+		3AC5799A19E614F700E3D796 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AC5799919E614F700E3D796 /* Images.xcassets */; };
+		3AC579A119E614F700E3D796 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC579A019E614F700E3D796 /* XCTest.framework */; };
+		3AC579A219E614F700E3D796 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5798119E614F700E3D796 /* Foundation.framework */; };
+		3AC579A319E614F700E3D796 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5798519E614F700E3D796 /* UIKit.framework */; };
+		3AC579AB19E614F700E3D796 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3AC579A919E614F700E3D796 /* InfoPlist.strings */; };
+		3AC579AD19E614F700E3D796 /* GyrosAndAccelerometersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC579AC19E614F700E3D796 /* GyrosAndAccelerometersTests.m */; };
+		3AC579B719E61B4F00E3D796 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC579B619E61B4F00E3D796 /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3AC579E719E621E400E3D796 /* PBXContainerItemProxy */ = {
+		3AC579A419E614F700E3D796 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3AC579B919E621E400E3D796 /* Project object */;
+			containerPortal = 3AC5797619E614F700E3D796 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3AC579C019E621E400E3D796;
+			remoteGlobalIDString = 3AC5797D19E614F700E3D796;
 			remoteInfo = GyrosAndAccelerometers;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3AC579C119E621E400E3D796 /* GyrosAndAccelerometers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GyrosAndAccelerometers.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3AC579C419E621E400E3D796 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		3AC579C619E621E400E3D796 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3AC579C819E621E400E3D796 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		3AC579CC19E621E400E3D796 /* GyrosAndAccelerometers-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GyrosAndAccelerometers-Info.plist"; sourceTree = "<group>"; };
-		3AC579CE19E621E400E3D796 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3AC579D019E621E400E3D796 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3AC579D219E621E400E3D796 /* GyrosAndAccelerometers-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GyrosAndAccelerometers-Prefix.pch"; sourceTree = "<group>"; };
-		3AC579D319E621E400E3D796 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3AC579D419E621E400E3D796 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3AC579D719E621E400E3D796 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3AC579D919E621E400E3D796 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3AC579DA19E621E400E3D796 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3AC579DC19E621E400E3D796 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		3AC579E219E621E400E3D796 /* GyrosAndAccelerometersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GyrosAndAccelerometersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3AC579E319E621E400E3D796 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		3AC579EB19E621E400E3D796 /* GyrosAndAccelerometersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GyrosAndAccelerometersTests-Info.plist"; sourceTree = "<group>"; };
-		3AC579ED19E621E400E3D796 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3AC579EF19E621E400E3D796 /* GyrosAndAccelerometersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GyrosAndAccelerometersTests.m; sourceTree = "<group>"; };
-		3AC579F919E6220200E3D796 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		3AC5797E19E614F700E3D796 /* GyrosAndAccelerometers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GyrosAndAccelerometers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AC5798119E614F700E3D796 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3AC5798319E614F700E3D796 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3AC5798519E614F700E3D796 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3AC5798919E614F700E3D796 /* GyrosAndAccelerometers-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GyrosAndAccelerometers-Info.plist"; sourceTree = "<group>"; };
+		3AC5798B19E614F700E3D796 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3AC5798D19E614F700E3D796 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3AC5798F19E614F700E3D796 /* GyrosAndAccelerometers-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GyrosAndAccelerometers-Prefix.pch"; sourceTree = "<group>"; };
+		3AC5799019E614F700E3D796 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3AC5799119E614F700E3D796 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3AC5799419E614F700E3D796 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3AC5799619E614F700E3D796 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3AC5799719E614F700E3D796 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3AC5799919E614F700E3D796 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3AC5799F19E614F700E3D796 /* GyrosAndAccelerometersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GyrosAndAccelerometersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AC579A019E614F700E3D796 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3AC579A819E614F700E3D796 /* GyrosAndAccelerometersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GyrosAndAccelerometersTests-Info.plist"; sourceTree = "<group>"; };
+		3AC579AA19E614F700E3D796 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3AC579AC19E614F700E3D796 /* GyrosAndAccelerometersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GyrosAndAccelerometersTests.m; sourceTree = "<group>"; };
+		3AC579B619E61B4F00E3D796 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3AC579BE19E621E400E3D796 /* Frameworks */ = {
+		3AC5797B19E614F700E3D796 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AC579FA19E6220200E3D796 /* CoreMotion.framework in Frameworks */,
-				3AC579C719E621E400E3D796 /* CoreGraphics.framework in Frameworks */,
-				3AC579C919E621E400E3D796 /* UIKit.framework in Frameworks */,
-				3AC579C519E621E400E3D796 /* Foundation.framework in Frameworks */,
+				3AC579B719E61B4F00E3D796 /* CoreMotion.framework in Frameworks */,
+				3AC5798419E614F700E3D796 /* CoreGraphics.framework in Frameworks */,
+				3AC5798619E614F700E3D796 /* UIKit.framework in Frameworks */,
+				3AC5798219E614F700E3D796 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3AC579DF19E621E400E3D796 /* Frameworks */ = {
+		3AC5799C19E614F700E3D796 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AC579E419E621E400E3D796 /* XCTest.framework in Frameworks */,
-				3AC579E619E621E400E3D796 /* UIKit.framework in Frameworks */,
-				3AC579E519E621E400E3D796 /* Foundation.framework in Frameworks */,
+				3AC579A119E614F700E3D796 /* XCTest.framework in Frameworks */,
+				3AC579A319E614F700E3D796 /* UIKit.framework in Frameworks */,
+				3AC579A219E614F700E3D796 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3AC579B819E621E400E3D796 = {
+		3AC5797519E614F700E3D796 = {
 			isa = PBXGroup;
 			children = (
-				3AC579CA19E621E400E3D796 /* GyrosAndAccelerometers */,
-				3AC579E919E621E400E3D796 /* GyrosAndAccelerometersTests */,
-				3AC579C319E621E400E3D796 /* Frameworks */,
-				3AC579C219E621E400E3D796 /* Products */,
+				3AC5798719E614F700E3D796 /* GyrosAndAccelerometers */,
+				3AC579A619E614F700E3D796 /* GyrosAndAccelerometersTests */,
+				3AC5798019E614F700E3D796 /* Frameworks */,
+				3AC5797F19E614F700E3D796 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3AC579C219E621E400E3D796 /* Products */ = {
+		3AC5797F19E614F700E3D796 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3AC579C119E621E400E3D796 /* GyrosAndAccelerometers.app */,
-				3AC579E219E621E400E3D796 /* GyrosAndAccelerometersTests.xctest */,
+				3AC5797E19E614F700E3D796 /* GyrosAndAccelerometers.app */,
+				3AC5799F19E614F700E3D796 /* GyrosAndAccelerometersTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3AC579C319E621E400E3D796 /* Frameworks */ = {
+		3AC5798019E614F700E3D796 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3AC579F919E6220200E3D796 /* CoreMotion.framework */,
-				3AC579C419E621E400E3D796 /* Foundation.framework */,
-				3AC579C619E621E400E3D796 /* CoreGraphics.framework */,
-				3AC579C819E621E400E3D796 /* UIKit.framework */,
-				3AC579E319E621E400E3D796 /* XCTest.framework */,
+				3AC579B619E61B4F00E3D796 /* CoreMotion.framework */,
+				3AC5798119E614F700E3D796 /* Foundation.framework */,
+				3AC5798319E614F700E3D796 /* CoreGraphics.framework */,
+				3AC5798519E614F700E3D796 /* UIKit.framework */,
+				3AC579A019E614F700E3D796 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3AC579CA19E621E400E3D796 /* GyrosAndAccelerometers */ = {
+		3AC5798719E614F700E3D796 /* GyrosAndAccelerometers */ = {
 			isa = PBXGroup;
 			children = (
-				3AC579D319E621E400E3D796 /* AppDelegate.h */,
-				3AC579D419E621E400E3D796 /* AppDelegate.m */,
-				3AC579D619E621E400E3D796 /* Main.storyboard */,
-				3AC579D919E621E400E3D796 /* ViewController.h */,
-				3AC579DA19E621E400E3D796 /* ViewController.m */,
-				3AC579DC19E621E400E3D796 /* Images.xcassets */,
-				3AC579CB19E621E400E3D796 /* Supporting Files */,
+				3AC5799019E614F700E3D796 /* AppDelegate.h */,
+				3AC5799119E614F700E3D796 /* AppDelegate.m */,
+				3AC5799319E614F700E3D796 /* Main.storyboard */,
+				3AC5799619E614F700E3D796 /* ViewController.h */,
+				3AC5799719E614F700E3D796 /* ViewController.m */,
+				3AC5799919E614F700E3D796 /* Images.xcassets */,
+				3AC5798819E614F700E3D796 /* Supporting Files */,
 			);
 			path = GyrosAndAccelerometers;
 			sourceTree = "<group>";
 		};
-		3AC579CB19E621E400E3D796 /* Supporting Files */ = {
+		3AC5798819E614F700E3D796 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3AC579CC19E621E400E3D796 /* GyrosAndAccelerometers-Info.plist */,
-				3AC579CD19E621E400E3D796 /* InfoPlist.strings */,
-				3AC579D019E621E400E3D796 /* main.m */,
-				3AC579D219E621E400E3D796 /* GyrosAndAccelerometers-Prefix.pch */,
+				3AC5798919E614F700E3D796 /* GyrosAndAccelerometers-Info.plist */,
+				3AC5798A19E614F700E3D796 /* InfoPlist.strings */,
+				3AC5798D19E614F700E3D796 /* main.m */,
+				3AC5798F19E614F700E3D796 /* GyrosAndAccelerometers-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		3AC579E919E621E400E3D796 /* GyrosAndAccelerometersTests */ = {
+		3AC579A619E614F700E3D796 /* GyrosAndAccelerometersTests */ = {
 			isa = PBXGroup;
 			children = (
-				3AC579EF19E621E400E3D796 /* GyrosAndAccelerometersTests.m */,
-				3AC579EA19E621E400E3D796 /* Supporting Files */,
+				3AC579AC19E614F700E3D796 /* GyrosAndAccelerometersTests.m */,
+				3AC579A719E614F700E3D796 /* Supporting Files */,
 			);
 			path = GyrosAndAccelerometersTests;
 			sourceTree = "<group>";
 		};
-		3AC579EA19E621E400E3D796 /* Supporting Files */ = {
+		3AC579A719E614F700E3D796 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3AC579EB19E621E400E3D796 /* GyrosAndAccelerometersTests-Info.plist */,
-				3AC579EC19E621E400E3D796 /* InfoPlist.strings */,
+				3AC579A819E614F700E3D796 /* GyrosAndAccelerometersTests-Info.plist */,
+				3AC579A919E614F700E3D796 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -159,13 +159,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3AC579C019E621E400E3D796 /* GyrosAndAccelerometers */ = {
+		3AC5797D19E614F700E3D796 /* GyrosAndAccelerometers */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3AC579F319E621E400E3D796 /* Build configuration list for PBXNativeTarget "GyrosAndAccelerometers" */;
+			buildConfigurationList = 3AC579B019E614F700E3D796 /* Build configuration list for PBXNativeTarget "GyrosAndAccelerometers" */;
 			buildPhases = (
-				3AC579BD19E621E400E3D796 /* Sources */,
-				3AC579BE19E621E400E3D796 /* Frameworks */,
-				3AC579BF19E621E400E3D796 /* Resources */,
+				3AC5797A19E614F700E3D796 /* Sources */,
+				3AC5797B19E614F700E3D796 /* Frameworks */,
+				3AC5797C19E614F700E3D796 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -173,42 +173,42 @@
 			);
 			name = GyrosAndAccelerometers;
 			productName = GyrosAndAccelerometers;
-			productReference = 3AC579C119E621E400E3D796 /* GyrosAndAccelerometers.app */;
+			productReference = 3AC5797E19E614F700E3D796 /* GyrosAndAccelerometers.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3AC579E119E621E400E3D796 /* GyrosAndAccelerometersTests */ = {
+		3AC5799E19E614F700E3D796 /* GyrosAndAccelerometersTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3AC579F619E621E400E3D796 /* Build configuration list for PBXNativeTarget "GyrosAndAccelerometersTests" */;
+			buildConfigurationList = 3AC579B319E614F700E3D796 /* Build configuration list for PBXNativeTarget "GyrosAndAccelerometersTests" */;
 			buildPhases = (
-				3AC579DE19E621E400E3D796 /* Sources */,
-				3AC579DF19E621E400E3D796 /* Frameworks */,
-				3AC579E019E621E400E3D796 /* Resources */,
+				3AC5799B19E614F700E3D796 /* Sources */,
+				3AC5799C19E614F700E3D796 /* Frameworks */,
+				3AC5799D19E614F700E3D796 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3AC579E819E621E400E3D796 /* PBXTargetDependency */,
+				3AC579A519E614F700E3D796 /* PBXTargetDependency */,
 			);
 			name = GyrosAndAccelerometersTests;
 			productName = GyrosAndAccelerometersTests;
-			productReference = 3AC579E219E621E400E3D796 /* GyrosAndAccelerometersTests.xctest */;
+			productReference = 3AC5799F19E614F700E3D796 /* GyrosAndAccelerometersTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3AC579B919E621E400E3D796 /* Project object */ = {
+		3AC5797619E614F700E3D796 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Klab Cyscorpions";
 				TargetAttributes = {
-					3AC579E119E621E400E3D796 = {
-						TestTargetID = 3AC579C019E621E400E3D796;
+					3AC5799E19E614F700E3D796 = {
+						TestTargetID = 3AC5797D19E614F700E3D796;
 					};
 				};
 			};
-			buildConfigurationList = 3AC579BC19E621E400E3D796 /* Build configuration list for PBXProject "GyrosAndAccelerometers" */;
+			buildConfigurationList = 3AC5797919E614F700E3D796 /* Build configuration list for PBXProject "GyrosAndAccelerometers" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -216,88 +216,88 @@
 				en,
 				Base,
 			);
-			mainGroup = 3AC579B819E621E400E3D796;
-			productRefGroup = 3AC579C219E621E400E3D796 /* Products */;
+			mainGroup = 3AC5797519E614F700E3D796;
+			productRefGroup = 3AC5797F19E614F700E3D796 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3AC579C019E621E400E3D796 /* GyrosAndAccelerometers */,
-				3AC579E119E621E400E3D796 /* GyrosAndAccelerometersTests */,
+				3AC5797D19E614F700E3D796 /* GyrosAndAccelerometers */,
+				3AC5799E19E614F700E3D796 /* GyrosAndAccelerometersTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3AC579BF19E621E400E3D796 /* Resources */ = {
+		3AC5797C19E614F700E3D796 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AC579DD19E621E400E3D796 /* Images.xcassets in Resources */,
-				3AC579CF19E621E400E3D796 /* InfoPlist.strings in Resources */,
-				3AC579D819E621E400E3D796 /* Main.storyboard in Resources */,
+				3AC5799A19E614F700E3D796 /* Images.xcassets in Resources */,
+				3AC5798C19E614F700E3D796 /* InfoPlist.strings in Resources */,
+				3AC5799519E614F700E3D796 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3AC579E019E621E400E3D796 /* Resources */ = {
+		3AC5799D19E614F700E3D796 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AC579EE19E621E400E3D796 /* InfoPlist.strings in Resources */,
+				3AC579AB19E614F700E3D796 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3AC579BD19E621E400E3D796 /* Sources */ = {
+		3AC5797A19E614F700E3D796 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AC579DB19E621E400E3D796 /* ViewController.m in Sources */,
-				3AC579D519E621E400E3D796 /* AppDelegate.m in Sources */,
-				3AC579D119E621E400E3D796 /* main.m in Sources */,
+				3AC5799819E614F700E3D796 /* ViewController.m in Sources */,
+				3AC5799219E614F700E3D796 /* AppDelegate.m in Sources */,
+				3AC5798E19E614F700E3D796 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3AC579DE19E621E400E3D796 /* Sources */ = {
+		3AC5799B19E614F700E3D796 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AC579F019E621E400E3D796 /* GyrosAndAccelerometersTests.m in Sources */,
+				3AC579AD19E614F700E3D796 /* GyrosAndAccelerometersTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3AC579E819E621E400E3D796 /* PBXTargetDependency */ = {
+		3AC579A519E614F700E3D796 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3AC579C019E621E400E3D796 /* GyrosAndAccelerometers */;
-			targetProxy = 3AC579E719E621E400E3D796 /* PBXContainerItemProxy */;
+			target = 3AC5797D19E614F700E3D796 /* GyrosAndAccelerometers */;
+			targetProxy = 3AC579A419E614F700E3D796 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3AC579CD19E621E400E3D796 /* InfoPlist.strings */ = {
+		3AC5798A19E614F700E3D796 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3AC579CE19E621E400E3D796 /* en */,
+				3AC5798B19E614F700E3D796 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		3AC579D619E621E400E3D796 /* Main.storyboard */ = {
+		3AC5799319E614F700E3D796 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3AC579D719E621E400E3D796 /* Base */,
+				3AC5799419E614F700E3D796 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		3AC579EC19E621E400E3D796 /* InfoPlist.strings */ = {
+		3AC579A919E614F700E3D796 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3AC579ED19E621E400E3D796 /* en */,
+				3AC579AA19E614F700E3D796 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -305,7 +305,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		3AC579F119E621E400E3D796 /* Debug */ = {
+		3AC579AE19E614F700E3D796 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -343,7 +343,7 @@
 			};
 			name = Debug;
 		};
-		3AC579F219E621E400E3D796 /* Release */ = {
+		3AC579AF19E614F700E3D796 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -375,7 +375,7 @@
 			};
 			name = Release;
 		};
-		3AC579F419E621E400E3D796 /* Debug */ = {
+		3AC579B119E614F700E3D796 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -388,7 +388,7 @@
 			};
 			name = Debug;
 		};
-		3AC579F519E621E400E3D796 /* Release */ = {
+		3AC579B219E614F700E3D796 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -401,7 +401,7 @@
 			};
 			name = Release;
 		};
-		3AC579F719E621E400E3D796 /* Debug */ = {
+		3AC579B419E614F700E3D796 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GyrosAndAccelerometers.app/GyrosAndAccelerometers";
@@ -423,7 +423,7 @@
 			};
 			name = Debug;
 		};
-		3AC579F819E621E400E3D796 /* Release */ = {
+		3AC579B519E614F700E3D796 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GyrosAndAccelerometers.app/GyrosAndAccelerometers";
@@ -444,32 +444,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3AC579BC19E621E400E3D796 /* Build configuration list for PBXProject "GyrosAndAccelerometers" */ = {
+		3AC5797919E614F700E3D796 /* Build configuration list for PBXProject "GyrosAndAccelerometers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3AC579F119E621E400E3D796 /* Debug */,
-				3AC579F219E621E400E3D796 /* Release */,
+				3AC579AE19E614F700E3D796 /* Debug */,
+				3AC579AF19E614F700E3D796 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3AC579F319E621E400E3D796 /* Build configuration list for PBXNativeTarget "GyrosAndAccelerometers" */ = {
+		3AC579B019E614F700E3D796 /* Build configuration list for PBXNativeTarget "GyrosAndAccelerometers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3AC579F419E621E400E3D796 /* Debug */,
-				3AC579F519E621E400E3D796 /* Release */,
+				3AC579B119E614F700E3D796 /* Debug */,
+				3AC579B219E614F700E3D796 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		3AC579F619E621E400E3D796 /* Build configuration list for PBXNativeTarget "GyrosAndAccelerometersTests" */ = {
+		3AC579B319E614F700E3D796 /* Build configuration list for PBXNativeTarget "GyrosAndAccelerometersTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3AC579F719E621E400E3D796 /* Debug */,
-				3AC579F819E621E400E3D796 /* Release */,
+				3AC579B419E614F700E3D796 /* Debug */,
+				3AC579B519E614F700E3D796 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3AC579B919E621E400E3D796 /* Project object */;
+	rootObject = 3AC5797619E614F700E3D796 /* Project object */;
 }
