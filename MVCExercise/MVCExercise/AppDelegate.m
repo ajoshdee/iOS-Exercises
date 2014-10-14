@@ -12,14 +12,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]]autorelease];
     // Override point for customization after application launch.
    
-    MainViewController *mainViewController = [[MainViewController alloc] init];
+    MainViewController *mainViewController = [[[MainViewController alloc] init]autorelease];
     
   
-    UINavigationController *navController = [[UINavigationController alloc]
-                                             initWithRootViewController: mainViewController];
+    UINavigationController *navController = [[[UINavigationController alloc]                                     initWithRootViewController: mainViewController]autorelease];
      self.window.rootViewController = navController;
     
     self.window.backgroundColor = [UIColor whiteColor];

@@ -19,4 +19,14 @@
     
     return itemModel;
 }
+-(void)dealloc
+{
+    [_itemTitle release];
+    [_itemImage release];
+    [_itemCategory release];
+    [_description release];
+    [super dealloc];
+}
+
+
 @end

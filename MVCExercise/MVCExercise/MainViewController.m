@@ -20,17 +20,19 @@
     // Call the superclass's designated initializer
     self = [super initWithStyle:UITableViewStylePlain];
     if (self) {
-        self.titles = [[NSMutableArray alloc]init];
+        
         NSDictionary *letterDict = [NSDictionary dictionaryWithObjectsAndKeys:
                                     @"Letter", @"Title",nil];
         NSDictionary *colorDict = [NSDictionary dictionaryWithObjectsAndKeys:
                                     @"Color", @"Title",nil];
         NSDictionary *foodDict = [NSDictionary dictionaryWithObjectsAndKeys:
                                     @"Food", @"Title",nil];
-        self.titles = [[NSMutableArray alloc] initWithObjects: letterDict, colorDict, foodDict, nil];
+        self.titles = [[[NSMutableArray alloc] initWithObjects: letterDict, colorDict, foodDict, nil]autorelease];
+        
+        
         
     }
-
+    
     return self;
 }
 
@@ -74,7 +76,7 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     
     if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier]autorelease];
     }
     
     [cell.textLabel setText:[[self.titles objectAtIndex:indexPath.row] objectForKey: @"Title"]];
@@ -86,62 +88,27 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     NSLog(@"attribute %@, indexPath %@",[self.titles objectAtIndex:indexPath.row],indexPath);
-    LevelViewController *levelViewController =[[LevelViewController alloc] init];
+    LevelViewController *levelViewController = nil;
+    if(!levelViewController)
+    {
+        levelViewController =[[[LevelViewController alloc] init]autorelease];
+    }
     
     UITableViewCell *cell = [[self tableView] cellForRowAtIndexPath:indexPath];
     levelViewController.title = cell.textLabel.text;
     [levelViewController setCategory:[[self.titles objectAtIndex:indexPath.row] objectForKey: @"Title"]];
     [self.navigationController pushViewController:levelViewController
                                               animated:YES];
+   
+
 }
 
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
+-(void)dealloc
 {
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
+    NSLog(@"Deallocating MainViewController");
+    _titles = nil;
+    
+    [_titles release];
+    [super dealloc];
 }
-*/
-
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    } else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
-}
-*/
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath
-{
-}
-*/
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
-
 @end

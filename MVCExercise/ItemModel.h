@@ -9,9 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface ItemModel : NSObject
-@property(nonatomic)NSString *itemTitle;
-@property(nonatomic)NSString *itemImage;
-@property(nonatomic)NSString *description;
-@property(nonatomic)NSString *itemCategory;
+@property(nonatomic, retain)NSString *itemTitle;
+@property(nonatomic, retain)NSString *itemImage;
+@property(nonatomic, retain)NSString *description;
+@property(nonatomic, retain)NSString *itemCategory;
 -(id) initWithDictionary:(NSDictionary *)dict;
 @end

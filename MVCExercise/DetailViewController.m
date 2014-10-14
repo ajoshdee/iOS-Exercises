@@ -9,9 +9,9 @@
 #import "DetailViewController.h"
 
 @interface DetailViewController ()
-@property (weak, nonatomic) IBOutlet UILabel *itemTitle;
-@property (weak, nonatomic) IBOutlet UILabel *description;
-@property (weak, nonatomic) IBOutlet UILabel *itemCategory;
+@property (retain, nonatomic) IBOutlet UILabel *itemTitle;
+@property (retain, nonatomic) IBOutlet UILabel *description;
+@property (retain, nonatomic) IBOutlet UILabel *itemCategory;
 
 
 @end
@@ -25,5 +25,15 @@
     [self.itemCategory setText:[self.itemmodel itemCategory]];
 }
 
+-(void)dealloc
+{
+    NSLog(@"Deallocating DetailViewController");
+    _itemmodel = nil;
+    
+    [_itemTitle release];
+    [_description release];
+    [_itemCategory release];
+    [super dealloc];
+}
 
 @end

@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface LevelViewController : UITableViewController
-@property(nonatomic)NSString *category;
+@property(nonatomic, retain)NSString *category;
 @end

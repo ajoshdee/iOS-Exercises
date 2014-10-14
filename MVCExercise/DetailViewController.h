@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 #import "ItemModel.h"
 @interface DetailViewController : UIViewController
-@property(nonatomic) ItemModel *itemmodel;
+@property(nonatomic, retain) ItemModel *itemmodel;
 @end
